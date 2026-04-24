@@ -21,17 +21,76 @@
       "icon": "🪆",
       "note": "New Zealand Wool · GSM 3500–4000 · Semi-Anti Skid",
       "products": [
-        { "name": "Beer Mug", "size": "5′×3′", "w": "4.5 kg", "price": 5900, "tag": "Bestseller" },
-        { "name": "Rug on Wheels", "size": "5′×2′6″", "w": "3.9 kg", "price": 6499, "tag": "New" },
-        { "name": "Nike Shoe Box", "size": "2′6″×3′6″", "w": "2.2 kg", "price": 4200 },
-        { "name": "Drip of Love", "size": "4′×4′", "w": "4.9 kg", "price": 5999, "tag": "Popular" },
-        { "name": "Vortex Illusion", "size": "5′×3′", "w": "3.9 kg", "price": 6499 },
-        { "name": "Vaseline", "size": "3′6″×3′6″", "w": "4.5 kg", "price": 5999 },
-        { "name": "Sneaker-Foot (Red)", "size": "5′×2′7″", "w": "4 kg", "price": 5499 },
-        { "name": "Sneaker-Foot (Orange)", "size": "5′×2′7″", "w": "4 kg", "price": 5499 },
-        { "name": "Sneaker-Foot (Purple)", "size": "5′×2′7″", "w": "4 kg", "price": 5499 },
-        { "name": "Rare Beauty Soft Pinch", "size": "6′×1′6″", "w": "2.9 kg", "price": 4999 },
-        { "name": "Sakht Launda", "size": "3′×3′", "w": "3.5 kg", "price": 4999, "tag": "Fan Fav" }
+        {
+          "name": "Car Rug",
+          "size": "5′×3′",
+          "price": 5900,
+          "tag": "Bestseller"
+        },
+        {
+          "name": "Rare Beauty Soft Pinch",
+          "size": "6′×1′6″",
+          "price": 4999,
+          "tag": "Viral Pick"
+        },
+        {
+          "name": "Shoes Rug",
+          "size": "5′×2′7″",
+          "price": 5499,
+          "tag": "New Drop"
+        },
+        {
+          "name": "Nike Shoe Box",
+          "size": "2′6″×3′6″",
+          "price": 4200,
+          "tag": "Most Loved"
+        },
+        {
+          "name": "Beer Mug",
+          "size": "5′×3′",
+          "price": 5900
+        },
+        {
+          "name": "Rug on Wheels",
+          "size": "5′×2′6″",
+          "price": 6499
+        },
+        {
+          "name": "Drip of Love",
+          "size": "4′×4′",
+          "price": 5999
+        },
+        {
+          "name": "Vortex Illusion",
+          "size": "5′×3′",
+          "price": 6499
+        },
+        {
+          "name": "Vaseline",
+          "size": "3′6″×3′6″",
+          "price": 5999
+        },
+        {
+          "name": "Sneaker-Foot (Red)",
+          "size": "5′×2′7″",
+          "price": 5499
+        },
+        {
+          "name": "Sneaker-Foot (Orange)",
+          "size": "5′×2′7″",
+          "price": 5499
+        },
+        {
+          "name": "Sneaker-Foot (Purple)",
+          "size": "5′×2′7″",
+          "price": 5499
+        },
+        {
+          "name": "Sakht Launda",
+          "size": "3′×3′",
+          "price": 4999,
+          "tag": "Fan Fav"
+        }
       ]
     },
     {
@@ -40,24 +99,148 @@
       "icon": "🍽",
       "note": "Premium Ceramic · Microwave Safe · Dishwasher Safe",
       "products": [
-        { "name": "Toast & Tasty Plate", "size": "4.5″×7″", "detail": "Set of 2 + holder", "price": 1200, "tag": "Trending" },
-        { "name": "Kiwi Plate", "size": "8″", "detail": "1 plate", "price": 499 },
-        { "name": "Vitamin-C Plate", "size": "8″", "detail": "1 plate", "price": 499 },
-        { "name": "Portion Plate", "size": "10″", "detail": "1 plate", "price": 799 },
-        { "name": "Sapphire Bloom", "size": "10″", "detail": "1 plate", "price": 499 },
-        { "name": "Rosava", "size": "10″", "detail": "1 plate", "price": 499 }
+        {
+          "name": "Portion Plate",
+          "size": "10″",
+          "detail": "1 plate",
+          "price": 799,
+          "tag": "Bestseller"
+        },
+        {
+          "name": "Toast & Tasty Plate",
+          "size": "4.5″×7″",
+          "detail": "Set of 2 + holder",
+          "price": 1200,
+          "tag": "Viral Pick"
+        },
+        {
+          "name": "Kiwi Plate",
+          "size": "8″",
+          "detail": "1 plate",
+          "price": 499,
+          "tag": "Customer Favourite"
+        },
+        {
+          "name": "Watermelon Plate",
+          "size": "8″",
+          "detail": "1 plate",
+          "price": 499,
+          "tag": "New Drop"
+        },
+        {
+          "name": "Star Plate",
+          "size": "8″",
+          "detail": "1 plate",
+          "price": 499,
+          "tag": "New Drop"
+        },
+        {
+          "name": "Vitamin-C Plate",
+          "size": "8″",
+          "detail": "1 plate",
+          "price": 499
+        },
+        {
+          "name": "Sapphire Bloom",
+          "size": "10″",
+          "detail": "1 plate",
+          "price": 499
+        },
+        {
+          "name": "Rosava",
+          "size": "10″",
+          "detail": "1 plate",
+          "price": 499
+        }
       ]
     },
     {
       "id": "glass",
       "label": "Glass",
       "icon": "🥂",
-      "note": "Borosilicate & Soda Lime · Premium Quality",
+      "note": "Borosilicate & Soda Lime · Clear Finish · Light Weight",
       "products": [
-        { "name": "Vintage Coca Cola", "size": "300 ml", "detail": "Set of 6", "price": 799, "tag": "Iconic" },
-        { "name": "Black Swan Wine Glass", "size": "350 ml", "detail": "Set of 4 / 6", "price": 1799 },
-        { "name": "Black Heart Champagne", "size": "200 ml", "detail": "Set of 4 / 6", "price": 1999, "tag": "Popular" },
-        { "name": "Bow-tiful Wine Glass", "size": "450 ml", "detail": "Set of 2 / 4 / 6", "price": 999 }
+        {
+          "name": "Vintage Coca Cola",
+          "size": "300 ml",
+          "detail": "Set of 6",
+          "price": 799,
+          "priceMax": 799,
+          "priceSets": "Set of 6",
+          "tag": "Iconic"
+        },
+        {
+          "name": "Black Swan Wine Glass",
+          "size": "350 ml",
+          "detail": "Set of 4 / 6",
+          "price": 1799,
+          "priceMax": 2399,
+          "priceSets": "Set of 4 · Set of 6",
+          "tag": "Bestseller"
+        },
+        {
+          "name": "Bow-Blush Glass",
+          "size": "450 ml",
+          "detail": "Set of 2 / 4 / 6",
+          "price": 999,
+          "priceMax": 1999,
+          "priceSets": "Set of 2 · Set of 4 · Set of 6",
+          "tag": "Giftable"
+        },
+        {
+          "name": "Bow-tiful Champagne Glass",
+          "size": "200 ml",
+          "detail": "Set of 4 / 6",
+          "price": 1999,
+          "priceMax": 2699,
+          "priceSets": "Set of 4 · Set of 6",
+          "tag": "Elegant"
+        },
+        {
+          "name": "Bubble Tumbler",
+          "size": "350 ml",
+          "detail": "Set of 4 / 6",
+          "price": 1499,
+          "priceMax": 2199,
+          "priceSets": "Set of 4 · Set of 6",
+          "tag": "Modern"
+        },
+        {
+          "name": "Double Wall Champagne Glass",
+          "size": "200 ml",
+          "detail": "Set of 4 / 6",
+          "price": 2199,
+          "priceMax": 2999,
+          "priceSets": "Set of 4 · Set of 6",
+          "tag": "Premium"
+        },
+        {
+          "name": "Rose Champagne Glass",
+          "size": "200 ml",
+          "detail": "Set of 4 / 6",
+          "price": 1999,
+          "priceMax": 2699,
+          "priceSets": "Set of 4 · Set of 6",
+          "tag": "Popular"
+        },
+        {
+          "name": "Spectrum Martini Glass",
+          "size": "250 ml",
+          "detail": "Set of 4 / 6",
+          "price": 1899,
+          "priceMax": 2599,
+          "priceSets": "Set of 4 · Set of 6",
+          "tag": "Party Pick"
+        },
+        {
+          "name": "Trippy Beer Glass",
+          "size": "500 ml",
+          "detail": "Set of 4 / 6",
+          "price": 1299,
+          "priceMax": 1799,
+          "priceSets": "Set of 4 · Set of 6",
+          "tag": "Fun"
+        }
       ]
     },
     {
@@ -66,10 +249,43 @@
       "icon": "🥄",
       "note": "Brass & Borosilicate Glass · Handcrafted",
       "products": [
-        { "name": "Sweet Heart Spoon", "size": "6″", "detail": "Set of 2", "price": 499 },
-        { "name": "Floral Buzz Spoon", "size": "7″", "detail": "Set of 4 / 6 / 8", "price": 1399, "tag": "Bestseller" },
-        { "name": "Heart of Gold Spoon", "size": "7″", "detail": "Set of 4 / 6 / 8", "price": 1399 },
-        { "name": "Feathers Touch", "size": "7″", "detail": "Set of 4 / 6 / 8", "price": 1399 }
+        {
+          "name": "Sweet Heart Spoon",
+          "size": "6″",
+          "detail": "Set of 2",
+          "price": 499,
+          "priceMax": 499,
+          "priceSets": "Set of 2",
+          "material": "Borosilicate Glass"
+        },
+        {
+          "name": "Floral Buzz Spoon",
+          "size": "7″",
+          "detail": "Set of 4 / 6 / 8",
+          "price": 1399,
+          "priceMax": 2599,
+          "priceSets": "Set of 4 · Set of 6 · Set of 8",
+          "tag": "Bestseller",
+          "material": "Brass"
+        },
+        {
+          "name": "Heart of Gold Spoon",
+          "size": "7″",
+          "detail": "Set of 4 / 6 / 8",
+          "price": 1399,
+          "priceMax": 2599,
+          "priceSets": "Set of 4 · Set of 6 · Set of 8",
+          "material": "Brass"
+        },
+        {
+          "name": "Feathers Touch",
+          "size": "7″",
+          "detail": "Set of 4 / 6 / 8",
+          "price": 1399,
+          "priceMax": 2599,
+          "priceSets": "Set of 4 · Set of 6 · Set of 8",
+          "material": "Borosilicate Glass"
+        }
       ]
     },
     {
@@ -78,69 +294,296 @@
       "icon": "🪝",
       "note": "Sagavan Wood · Artisan Crafted",
       "products": [
-        { "name": "Safety Pin Hook", "size": "2′6″×1′3″", "detail": "4 hooks", "price": 2499, "tag": "Unique" },
-        { "name": "Phases of Moon", "size": "2.5″ each", "detail": "5 pcs", "price": 1299 },
-        { "name": "Hang-O-Scale", "size": "1′6″×4″", "detail": "4 hooks", "price": 1499 }
+        {
+          "name": "Safety Pin Hook",
+          "size": "2′6″×1′3″",
+          "detail": "4 hooks",
+          "price": 2499,
+          "tag": "Unique"
+        },
+        {
+          "name": "Phases of Moon",
+          "size": "2.5″ each",
+          "detail": "5 pcs",
+          "price": 1299
+        },
+        {
+          "name": "Hang-O-Scale",
+          "size": "1′6″×4″",
+          "detail": "4 hooks",
+          "price": 1499
+        }
+      ]
+    },
+    {
+      "id": "vases",
+      "label": "Vases",
+      "icon": "🏺",
+      "note": "Hand-painted Ceramic · Waterproof · Unique Shapes",
+      "products": [
+        {
+          "name": "Flat Bottle Vase",
+          "size": "10″×4″",
+          "detail": "1 vase",
+          "price": 1299,
+          "tag": "Trending"
+        },
+        {
+          "name": "Flat Floral Vase",
+          "size": "9″×5″",
+          "detail": "1 vase",
+          "price": 1499,
+          "tag": "New Drop"
+        },
+        {
+          "name": "Fridge Magnet Set",
+          "size": "Assorted",
+          "detail": "Set of 6",
+          "price": 599,
+          "tag": "Cute"
+        }
       ]
     },
     {
       "id": "decor",
       "label": "Décor",
       "icon": "✨",
-      "note": "Signs, Boards, Magnets & More",
+      "note": "Stick-on Signs · Fridge Magnets & More",
       "products": [
-        { "name": "Mother Silhouette", "size": "1′2″×9″", "detail": "Finger joint Wood", "price": 1499, "tag": "Gift Idea" },
-        { "name": "Fridge Magnet Assorted", "size": "1.5″×1″", "detail": "Set of 5 – Ceramic", "price": 499 },
-        { "name": "Sign Board", "size": "8″×8″", "detail": "Aluminium · Stick-on", "price": 499 },
-        { "name": "Word Plate Small", "size": "4″×8″", "detail": "Aluminium · Stick-on", "price": 399 },
-        { "name": "Word Plate Large", "size": "4″×17″", "detail": "Aluminium · Stick-on", "price": 499 },
-        { "name": "Acrylic Boards – Kitchen", "size": "7″×7″", "detail": "Mirror / Solid colour", "price": 399 },
-        { "name": "Acrylic Boards – Manifestation", "size": "7″×7″", "detail": "Mirror / Solid colour", "price": 399 },
-        { "name": "Acrylic Boards – Women", "size": "7″×7″", "detail": "Mirror / Solid colour", "price": 399 },
-        { "name": "Acrylic Boards – Men", "size": "7″×7″", "detail": "Mirror / Solid colour", "price": 399 }
+        {
+          "name": "Sign Board",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Word Plate Small",
+          "size": "4″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 399,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Word Plate Large",
+          "size": "4″×17″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Fridge Magnet Assorted",
+          "size": "1.5″×1″",
+          "detail": "Set of 5 – Ceramic",
+          "price": 499,
+          "tag": "Fan Fav"
+        },
+        {
+          "name": "Acrylic Boards – Kitchen",
+          "size": "7″×7″",
+          "detail": "Mirror / Solid colour",
+          "price": 399
+        },
+        {
+          "name": "Acrylic Boards – Manifestation",
+          "size": "7″×7″",
+          "detail": "Mirror / Solid colour",
+          "price": 399
+        },
+        {
+          "name": "Acrylic Boards – Women",
+          "size": "7″×7″",
+          "detail": "Mirror / Solid colour",
+          "price": 399
+        },
+        {
+          "name": "Acrylic Boards – Men",
+          "size": "7″×7″",
+          "detail": "Mirror / Solid colour",
+          "price": 399
+        }
+      ]
+    },
+    {
+      "id": "gifting",
+      "label": "Gifting",
+      "icon": "🎁",
+      "note": "Handcrafted Gifts · Made with Love · Perfect for Every Occasion",
+      "products": [
+        {
+          "name": "Mother Silhouette",
+          "size": "1′2″×9″",
+          "detail": "Finger joint Wood",
+          "price": 1499,
+          "tag": "Gift Idea"
+        }
       ]
     }
   ],
   "reviews": [
-    { "name": "Priya S.", "city": "Mumbai", "text": "Got the Drip of Love rug for my bedroom — it's EXACTLY like the photos. The wool quality is insane. My friends keep asking where I got it!" },
-    { "name": "Arjun M.", "city": "Hyderabad", "text": "Ordered the Black Swan wine glasses for a dinner party. Arrived perfectly packed in 5 days. Absolute showstoppers on the table." },
-    { "name": "Rhea K.", "city": "Delhi", "text": "The Nike Shoe Box rug in my sneaker room is everything. Conversation starter every single time someone visits. 10/10!" },
-    { "name": "Tanvi P.", "city": "Bengaluru", "text": "Floral Buzz spoons + the Kiwi plates together look so dreamy. Designholic really understands aesthetic living." }
+    {
+      "name": "Priya S.",
+      "city": "Mumbai",
+      "text": "Got the Drip of Love rug for my bedroom it's EXACTLY like the photos. The wool quality is insane. My friends keep asking where I got it!"
+    },
+    {
+      "name": "Arjun M.",
+      "city": "Hyderabad",
+      "text": "Ordered the Black Swan wine glasses for a dinner party. Arrived perfectly packed in 5 days. Absolute showstoppers on the table."
+    },
+    {
+      "name": "Rhea K.",
+      "city": "Delhi",
+      "text": "The Nike Shoe Box rug in my sneaker room is everything. Conversation starter every single time someone visits. 10/10!"
+    },
+    {
+      "name": "Tanvi P.",
+      "city": "Bengaluru",
+      "text": "Floral Buzz spoons + the Kiwi plates together look so dreamy. Designholic really understands aesthetic living."
+    }
   ],
   "faqs": [
-    { "q": "How do I place an order?", "a": "Easy! Browse the catalogue → Screenshot your fave product → Send it on WhatsApp to +91 91773 66808 → Confirm payment → We dispatch!" },
-    { "q": "Do you ship across India?", "a": "Yes, we ship all over India 🇮🇳. Free delivery on all orders above ₹1,500." },
-    { "q": "What payment methods do you accept?", "a": "We accept UPI via GPay, Paytm, and PhonePe. UPI ID: dbaid.db@oksbi. Bank transfer also available (SBI – Diksha Baid)." },
-    { "q": "How long does delivery take?", "a": "Orders are typically delivered within 3–7 business days. We share tracking details once dispatched." },
-    { "q": "Are there delivery charges?", "a": "No delivery charges on orders above ₹1,500. The price you see is the price you pay 🚚." }
+    {
+      "q": "How do I place an order?",
+      "a": "Easy! Browse the catalogue → Screenshot your fave product → Send it on WhatsApp to +91 82976 70555 → Confirm payment → We dispatch!"
+    },
+    {
+      "q": "Do you ship across India?",
+      "a": "Yes, we ship all over India 🇮🇳. Free delivery on all orders above ₹1,500."
+    },
+    {
+      "q": "What payment methods do you accept?",
+      "a": "We accept UPI via GPay, Paytm, and PhonePe. UPI ID: dbaid.db@oksbi. Bank transfer also available (SBI – Diksha Baid)."
+    },
+    {
+      "q": "How long does delivery take?",
+      "a": "Orders are typically delivered within 3–7 business days. We share tracking details once dispatched."
+    },
+    {
+      "q": "Are there delivery charges?",
+      "a": "No delivery charges on orders above ₹1,500. The price you see is the price you pay 🚚."
+    },
+    {
+      "q": "Are products returnable?",
+      "a": "Products are not returnable. In case of any damage during delivery, please record a clear unboxing video and share it with us immediately so we can review and assist you."
+    }
   ],
-  "ticker": "✦ TUFTED RUGS  ✦ PREMIUM PLATES  ✦ ARTISAN GLASSWARE  ✦ HOME DÉCOR  ✦ SIGN BOARDS  ✦ FREE DELIVERY ABOVE ₹1500  ✦ PAN INDIA SHIPPING  ",
+  "ticker": "Pan India Delivery ✦ Pinterest Finds ✦ Free Shipping Above ₹1500 ✦ WhatsApp Orders Open ✦ Cute Home Upgrades ✦ Limited Stock ✦ ",
   "contact": {
-    "whatsapp": "VITE_WHATSAPP",
+    "whatsapp": "+91 82976 70555",
     "whatsappLink": "VITE_WHATSAPP_LINK",
-    "instagram": "VITE_INSTAGRAM",
+    "instagram": "@designholicxstore",
     "instagramLink": "VITE_INSTAGRAM_LINK",
-    "email": "VITE_EMAIL",
+    "email": "designholicxstore@gmail.com",
     "upiId": "VITE_UPI_ID"
   },
   "stats": [
-    { "value": "100%", "label": "NZ Wool" },
-    { "value": "Pan India", "label": "Delivery" },
-    { "value": "3–7 Days", "label": "Dispatch" },
-    { "value": "₹1500+", "label": "Free Ship" }
+    {
+      "value": "Pan India",
+      "label": "Delivery"
+    },
+    {
+      "value": "3–7 Days",
+      "label": "Dispatch"
+    },
+    {
+      "value": "₹1500+",
+      "label": "Free Ship"
+    },
+    {
+      "value": "Made in India",
+      "label": "🇮🇳"
+    }
   ],
   "features": [
-    { "icon": "🐑", "title": "New Zealand Wool", "desc": "GSM 3500–4000, semi-anti skid backing. Built to last and feel luxurious underfoot." },
-    { "icon": "🇮🇳", "title": "Pan India Delivery", "desc": "Free shipping on orders above ₹1,500. We ship everywhere across India, fast." },
-    { "icon": "🎨", "title": "Iconic Designs", "desc": "Pop-culture art, quirky quotes and timeless aesthetics for every personality." },
-    { "icon": "⚡", "title": "Quick Dispatch", "desc": "3–7 business days. Tracking details shared the moment your order ships." }
+    {
+      "icon": "🐑",
+      "title": "New Zealand Wool",
+      "desc": "GSM 3500–4000, semi-anti skid backing. Built to last and feel luxurious underfoot."
+    },
+    {
+      "icon": "🇮🇳",
+      "title": "Pan India Delivery",
+      "desc": "Free shipping on orders above ₹1,500. We ship everywhere across India, fast."
+    },
+    {
+      "icon": "🎨",
+      "title": "Iconic Designs",
+      "desc": "Pop-culture art, quirky quotes and timeless aesthetics for every personality."
+    },
+    {
+      "icon": "⚡",
+      "title": "Quick Dispatch",
+      "desc": "3–7 business days. Tracking details shared the moment your order ships."
+    }
   ],
   "orderSteps": [
-    { "n": "01", "icon": "📸", "title": "Screenshot", "desc": "Browse the catalogue and screenshot the product you love." },
-    { "n": "02", "icon": "💬", "title": "WhatsApp", "desc": "Send the screenshot to us: +91 91773 66808" },
-    { "n": "03", "icon": "💳", "title": "Pay Easily", "desc": "Pay via GPay, Paytm, PhonePe or bank transfer." },
-    { "n": "04", "icon": "📦", "title": "We Dispatch", "desc": "Sit back — your order ships in 3–7 business days!" }
+    {
+      "n": "01",
+      "icon": "📸",
+      "title": "Screenshot",
+      "desc": "Browse the catalogue and screenshot the product you love."
+    },
+    {
+      "n": "02",
+      "icon": "💬",
+      "title": "WhatsApp Us",
+      "desc": "Send the screenshot to +91 82976 70555."
+    },
+    {
+      "n": "03",
+      "icon": "💳",
+      "title": "Pay Easily",
+      "desc": "Pay via GPay, Paytm, PhonePe or bank transfer."
+    },
+    {
+      "n": "04",
+      "icon": "📦",
+      "title": "We Dispatch",
+      "desc": "Sit back your order ships in 3–7 business days!"
+    }
   ],
-  "paymentMethods": ["GPay", "Paytm", "PhonePe", "UPI"],
-  "brandCategories": ["RUGS", "PLATES", "GLASS", "DÉCOR", "SPOONS", "HANGERS"]
+  "paymentMethods": [
+    "GPay",
+    "Paytm",
+    "PhonePe",
+    "UPI"
+  ],
+  "brandCategories": [
+    "TUFTED RUGS",
+    "PLATES",
+    "GLASSWARE",
+    "VASES",
+    "DÉCOR",
+    "SPOONS",
+    "HANGERS",
+    "GIFTING"
+  ],
+  "heroSlides": [
+    {
+      "label": "Car Rug",
+      "tag": "Bestseller",
+      "category": "Tufted Rug"
+    },
+    {
+      "label": "Rare Beauty Soft Pinch",
+      "tag": "Viral Pick",
+      "category": "Tufted Rug"
+    },
+    {
+      "label": "Black Swan Wine Glass",
+      "tag": "Bestseller",
+      "category": "Glassware"
+    },
+    {
+      "label": "Flat Bottle Vase",
+      "tag": "Trending",
+      "category": "Vases"
+    },
+    {
+      "label": "Bow-Blush Glass",
+      "tag": "Giftable",
+      "category": "Glassware"
+    }
+  ]
 }

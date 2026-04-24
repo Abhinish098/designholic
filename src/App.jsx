@@ -6,6 +6,7 @@ import ShopByCategory from "./components/shop_by_category";
 import WhyDesignholic from "./components/why_designholic";
 import HowToOrder from "./components/how_to_order";
 import WhatTheySaying from "./components/what_theyre_saying";
+import InstagramReels from "./components/instagram_reels";
 import QNA from "./components/qna";
 import GetInTouch from "./components/get_in_touch";
 import Footer from "./components/footer";
@@ -62,6 +63,9 @@ export default function App() {
 
       {/* ── REVIEWS ──────────────────────────────────────────── */}
       <WhatTheySaying />
+
+      {/* ── INSTAGRAM REELS ──────────────────────────────────── */}
+      <InstagramReels />
 
       {/* ── FAQ ──────────────────────────────────────────────── */}
       <QNA />
