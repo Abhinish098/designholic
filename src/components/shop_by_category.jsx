@@ -17,7 +17,7 @@ function ProductCard({ p, isUnder500, cat, contact }) {
   const hasVariants = p.variants && p.variants.length > 0;
   const currentPrice = hasVariants ? p.variants[selectedVariantIdx].price : p.price;
   const currentLabel = hasVariants ? p.variants[selectedVariantIdx].label : p.priceSets;
-  
+
   const hasRange = !hasVariants && p.priceMax && p.priceMax !== p.price;
 
   return (
@@ -36,8 +36,8 @@ function ProductCard({ p, isUnder500, cat, contact }) {
           {p.material && <div>🧪 {p.material}</div>}
           {hasVariants ? (
             <div className="variant-selector">
-              <select 
-                value={selectedVariantIdx} 
+              <select
+                value={selectedVariantIdx}
                 onChange={(e) => setSelectedVariantIdx(Number(e.target.value))}
                 className="variant-dropdown"
               >
@@ -91,19 +91,11 @@ export default function ShopByCategory({ goto }) {
 
   return (
     <section id="products" className="shop-section">
-      <div className="section-header">
-        <div>
-          <div className="label">
-            <span className="star">✦</span>
-            Our Collection
-          </div>
-          <h2 className="section-title">
-            Shop by <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Category</span>
-          </h2>
-        </div>
-        <p className="section-desc">
-          Every piece is crafted with intention to bring character and joy to your everyday spaces.
-        </p>
+      <div className="section-header center">
+        <div className="label">Our Collection</div>
+        <h2 className="section-title center">
+          Shop by <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Category</span>
+        </h2>
       </div>
 
       {/* Sticky category tabs */}

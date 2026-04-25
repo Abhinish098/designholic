@@ -24,17 +24,6 @@ export default function HowToOrder() {
             </div>
           ))}
         </div>
-
-        <div className="order-cta">
-          <a
-            href={contact.whatsappLink}
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-wa"
-          >
-            💬 Start your order on WhatsApp
-          </a>
-        </div>
       </div>
     </section>
   );

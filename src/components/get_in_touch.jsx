@@ -5,19 +5,19 @@ const { designTokens: T, contact, paymentMethods } = config;
 export default function GetInTouch() {
   return (
     <section id="contact" className="contact-section">
+      <div className="section-header center">
+        <div className="label">Get In Touch</div>
+        <h2 className="section-title center">
+          <span>Found Something{" "}</span><br />
+          <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>
+            You Love?
+          </span>
+        </h2>
+      </div>
+
       <div className="found-love-grid">
         {/* ── LEFT: CTA ──────────────────────────────────────────── */}
         <div className="found-love-left">
-          <div className="label">
-            <span className="star">✦</span>
-            Get In Touch
-          </div>
-          <h2 className="section-title">
-            <span>Found Something{" "}</span><br />
-            <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>
-              You Love?
-            </span>
-          </h2>
           <p className="found-love-desc">
             Place orders, ask questions, or get recommendations. We're just a WhatsApp message away.
           </p>

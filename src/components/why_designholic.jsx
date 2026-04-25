@@ -6,13 +6,11 @@ export default function WhyDesignholic() {
   return (
     <section id="about" className="why-section">
       <div className="section-inner">
-        <div className="section-header">
-          <div>
-            <div className="label light">Why Designholic?</div>
-            <h2 className="section-title light">
-              Crafted different. <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Lived beautifully.</span>
-            </h2>
-          </div>
+        <div className="section-header center">
+          <div className="label light">Why Designholic?</div>
+          <h2 className="section-title light center">
+            Crafted different. <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Lived beautifully.</span>
+          </h2>
         </div>
 
         <div className="features-grid">

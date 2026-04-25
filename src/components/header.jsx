@@ -15,8 +15,10 @@ export default function Header({ scrolled, goto }) {
           <LogoSVG />
         </div>
 
-        <div className="nav-links">
-          <span className="header-brand-name">DesignHolicXStore</span>
+        <div className="nav-links header-brand-wrap">
+          <div className="header-brand-line-1">DesignHolic</div>
+          <div className="header-brand-line-2">X</div>
+          <div className="header-brand-line-3">Store</div>
         </div>
 
         <div className="header-actions">
