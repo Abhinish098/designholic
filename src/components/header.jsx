@@ -16,16 +16,7 @@ export default function Header({ scrolled, goto }) {
         </div>
 
         <div className="nav-links">
-          {[
-            ["Products", "products"],
-            ["About", "about"],
-            ["FAQ", "faq"],
-            ["Contact", "contact"]
-          ].map(([lbl, id]) => (
-            <span key={id} className="nav-link" onClick={() => goto(id)}>
-              {lbl}
-            </span>
-          ))}
+          <span className="header-brand-name">DesignHolicXStore</span>
         </div>
 
         <div className="header-actions">

@@ -24,8 +24,8 @@ export default function WhyDesignholic() {
                     <rect x="2" y="5" width="20" height="14" rx="2" fill="white" />
                     <path d="M2,7a2,2 0 0,1 2,-2h16a2,2 0 0,1 2,2v3h-20z" fill="#FF9933" />
                     <path d="M2,17a2,2 0 0,0 2,2h16a2,2 0 0,0 2,-2v-3h-20z" fill="#128807" />
-                    <circle cx="12" cy="12" r="1.5" fill="none" stroke="#000080" stroke-width="0.5" />
-                    <path d="M12,11v2M11.5,12h1M11.65,11.35l0.7,1.3M12.35,11.35l-0.7,1.3" stroke="#000080" stroke-width="0.2" />
+                    <circle cx="12" cy="12" r="1.5" fill="none" stroke="#000080" strokeWidth="0.5" />
+                    <path d="M12,11v2M11.5,12h1M11.65,11.35l0.7,1.3M12.35,11.35l-0.7,1.3" stroke="#000080" strokeWidth="0.2" />
                   </svg>
                 ) : (
                   f.icon

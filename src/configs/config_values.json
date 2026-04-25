@@ -174,17 +174,24 @@
           "size": "350 ml",
           "detail": "Set of 4 / 6",
           "price": 1799,
-          "priceMax": 2399,
-          "priceSets": "Set of 4 · Set of 6",
+          "priceMax": 2499,
+          "variants": [
+            { "label": "Set of 4", "price": 1799 },
+            { "label": "Set of 6", "price": 2499 }
+          ],
           "tag": "Bestseller"
         },
         {
-          "name": "Bow-Blush Glass",
+          "name": "Bow-tiful Wine Glass",
           "size": "450 ml",
           "detail": "Set of 2 / 4 / 6",
           "price": 999,
-          "priceMax": 1999,
-          "priceSets": "Set of 2 · Set of 4 · Set of 6",
+          "priceMax": 2499,
+          "variants": [
+            { "label": "Set of 2", "price": 999 },
+            { "label": "Set of 4", "price": 1899 },
+            { "label": "Set of 6", "price": 2499 }
+          ],
           "tag": "Giftable"
         },
         {
@@ -206,12 +213,15 @@
           "tag": "Modern"
         },
         {
-          "name": "Double Wall Champagne Glass",
+          "name": "Black Heart Champagne Glass",
           "size": "200 ml",
           "detail": "Set of 4 / 6",
-          "price": 2199,
+          "price": 1999,
           "priceMax": 2999,
-          "priceSets": "Set of 4 · Set of 6",
+          "variants": [
+            { "label": "Set of 4", "price": 1999 },
+            { "label": "Set of 6", "price": 2999 }
+          ],
           "tag": "Premium"
         },
         {
@@ -261,29 +271,41 @@
         {
           "name": "Floral Buzz Spoon",
           "size": "7″",
-          "detail": "Set of 4 / 6 / 8",
+          "detail": "Set of 2 / 4 / 6",
           "price": 1399,
-          "priceMax": 2599,
-          "priceSets": "Set of 4 · Set of 6 · Set of 8",
+          "priceMax": 2499,
+          "variants": [
+            { "label": "Set of 2", "price": 1399 },
+            { "label": "Set of 4", "price": 1899 },
+            { "label": "Set of 6", "price": 2499 }
+          ],
           "tag": "Bestseller",
           "material": "Brass"
         },
         {
           "name": "Heart of Gold Spoon",
           "size": "7″",
-          "detail": "Set of 4 / 6 / 8",
+          "detail": "Set of 2 / 4 / 6",
           "price": 1399,
-          "priceMax": 2599,
-          "priceSets": "Set of 4 · Set of 6 · Set of 8",
+          "priceMax": 2499,
+          "variants": [
+            { "label": "Set of 2", "price": 1399 },
+            { "label": "Set of 4", "price": 1899 },
+            { "label": "Set of 6", "price": 2499 }
+          ],
           "material": "Brass"
         },
         {
           "name": "Feathers Touch",
           "size": "7″",
-          "detail": "Set of 4 / 6 / 8",
+          "detail": "Set of 2 / 4 / 6",
           "price": 1399,
-          "priceMax": 2599,
-          "priceSets": "Set of 4 · Set of 6 · Set of 8",
+          "priceMax": 2499,
+          "variants": [
+            { "label": "Set of 2", "price": 1399 },
+            { "label": "Set of 4", "price": 1899 },
+            { "label": "Set of 6", "price": 2499 }
+          ],
           "material": "Borosilicate Glass"
         }
       ]
@@ -581,7 +603,7 @@
       "category": "Vases"
     },
     {
-      "label": "Bow-Blush Glass",
+      "label": "Bow-tiful Wine Glass",
       "tag": "Giftable",
       "category": "Glassware"
     }

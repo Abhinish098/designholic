@@ -1,3 +1,12 @@
+/* Concetta Kalvani */
+@font-face {
+  font-family: 'Concetta Kalvani';
+  src: url('./assets/concetta-kalvani/ConcettaKalvani-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Design Tokens */
 :root {
   --cream: #FAF8F4;
@@ -9,6 +18,7 @@
   --white: #FFFFFF;
   --PF: 'Playfair Display', Georgia, serif;
   --IN: 'Inter', system-ui, sans-serif;
+  --CK: 'Concetta Kalvani', serif;
 }
 
 /* Global Reset */
@@ -379,68 +389,36 @@ body {
 }
 
 .dh-logo-svg {
-  padding-top: 15px;
-  height: 95px;
+  height: 80px;
   width: auto;
-  overflow: visible;
   display: block;
+  object-fit: contain;
 }
 
-/* Paths static state (no animation) */
-.dh-p {
-  fill: var(--black);
-  stroke: var(--black);
-  stroke-width: 1;
-  stroke-linejoin: round;
+/* ── Fade-in animation on first load ─── */
+@keyframes dhFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Draw animation (applied when .dh-logo-draw is present) ─── */
-@keyframes dhDrawStroke {
-  from {
-    stroke-dashoffset: 100;
-    fill-opacity: 0;
-  }
-
-  60% {
-    stroke-dashoffset: 0;
-    fill-opacity: 0;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-    fill-opacity: 1;
-  }
-}
-
-.dh-logo-draw .dh-p {
-  fill-opacity: 0;
-  stroke-dasharray: 100;
-  stroke-dashoffset: 100;
-  animation: dhDrawStroke 1.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+.dh-logo-draw {
+  animation: dhFadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
 .nav-links {
+  flex: 1;
   display: flex;
-  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-link {
-  font-family: var(--IN);
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  color: #666;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 4px 0;
-  border-bottom: 2px solid transparent;
-  transition: color 0.2s, border-color 0.2s;
-}
-
-.nav-link:hover {
-  color: var(--red);
-  border-bottom-color: var(--red);
+.header-brand-name {
+  font-family: var(--CK);
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: var(--black);
+  user-select: none;
 }
 
 /* Buttons */
@@ -572,23 +550,30 @@ body {
 }
 
 .banner-tag {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
   background: var(--white);
   border: 1px solid var(--border);
-  padding: 9px 20px;
+  padding: 9px 0;
   margin-bottom: 36px;
   border-radius: 2px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.banner-tag-ticker {
+  animation: ticker 30s linear infinite;
+  display: inline-block;
   white-space: nowrap;
+  will-change: transform;
 }
 
-.banner-tag .star {
+.banner-tag-ticker .star {
   color: var(--red);
-  flex-shrink: 0;
+  margin-right: 8px;
 }
 
-.banner-tag span:last-child {
+.banner-tag-ticker span {
   font-family: var(--IN);
   font-size: 11px;
   font-weight: 600;
@@ -600,7 +585,7 @@ body {
 
 .banner-title {
   font-family: var(--PF);
-  font-size: clamp(52px, 5.5vw, 82px);
+  font-size: clamp(38px, 9vw, 82px);
   font-weight: 900;
   line-height: 1;
   color: var(--black);
@@ -668,8 +653,8 @@ body {
 
 /* ── Hero Carousel ────────────────────────────────────────── */
 .hero-carousel {
-  width: 390px;
-  height: 470px;
+  width: 468px;
+  height: 680px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -680,13 +665,28 @@ body {
 .carousel-slide {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
   opacity: 0;
   transition: opacity 0.8s ease;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-blur-bg {
+  position: absolute;
+  inset: -20px;
+  background-size: cover;
+  background-position: center;
+  filter: blur(18px);
+  transform: scale(1.1);
+}
+
+.carousel-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
 }
 
 .carousel-slide.active {
@@ -974,9 +974,7 @@ body {
 
 /* Category Tabs sticky wrapper */
 .category-tabs-wrap {
-  position: sticky;
-  top: 76px;
-  z-index: 200;
+  position: relative;
   background: var(--cream);
   border-bottom: 2px solid var(--border);
   margin-bottom: 48px;
@@ -1048,13 +1046,15 @@ body {
   font-size: 22px;
   font-weight: 700;
   color: var(--black);
+  text-align: center;
 }
 
 .category-note {
   font-family: var(--IN);
   font-size: 13px;
   color: var(--muted);
-  margin-top: 4px;
+  margin-top: 10px;
+  text-align: left;
 }
 
 .product-count {
@@ -1163,6 +1163,40 @@ body {
   color: var(--muted);
   letter-spacing: 0.5px;
   font-style: italic;
+}
+
+.variant-selector {
+  margin-top: 2px;
+}
+
+.variant-dropdown {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 6px 28px 6px 10px;
+  font-family: var(--IN);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--black);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+
+.variant-dropdown:hover {
+  border-color: #ccc;
+}
+
+.variant-dropdown:focus {
+  border-color: var(--red);
+  box-shadow: 0 0 0 2px rgba(230, 51, 41, 0.1);
 }
 
 .product-footer {
@@ -1679,6 +1713,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  width: 100%;
   max-width: 360px;
 }
 
@@ -2058,6 +2093,13 @@ body {
   .banner-content {
     flex-direction: column;
   }
+  .banner-right, .banner-left {
+    width: 100%;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 
   .hero-carousel {
     width: 100%;
@@ -2076,8 +2118,33 @@ body {
     flex-direction: column;
   }
 
+  .step-card {
+    border-left: 1px solid var(--border);
+    border-top: none;
+  }
+  
+  .step-card:first-child {
+    border-top: 1px solid var(--border);
+  }
+
+  .step-arrow {
+    top: auto;
+    bottom: -16px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%) rotate(90deg);
+  }
+
   .found-love-grid {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .found-love-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .customer-photos-grid {
@@ -2094,8 +2161,11 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .nav-links {
+  .header-actions {
     display: none;
+  }
+  .header-brand-name {
+    font-size: 1.5rem;
   }
 
   .stats-grid {
@@ -2104,7 +2174,8 @@ body {
 
   .hero-carousel {
     width: 100%;
-    height: 300px;
+    height: auto;
+    aspect-ratio: 468 / 600;
   }
 
   .customer-photos-grid {

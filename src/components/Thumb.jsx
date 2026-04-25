@@ -79,10 +79,10 @@ const IMAGE_MAP = {
   // GLASS
   "Vintage Coca Cola": [vc1/*, vc2, vc3, vc4*/],
   "Black Swan Wine Glass": [bs1/*, bs2, bs3, bs4, bs5*/],
-  "Bow-Blush Glass": [bb1/*, bb2, bb3*/],
+  "Bow-tiful Wine Glass": [bb1/*, bb2, bb3*/],
   "Bow-tiful Champagne Glass": [bt1/*, bt2, bt3*/],
   "Bubble Tumbler": [bu1/*, bu2, bu3, bu4*/],
-  "Double Wall Champagne Glass": [dw1/*, dw2, dw3*/],
+  "Black Heart Champagne Glass": [dw1/*, dw2, dw3*/],
   "Rose Champagne Glass": [ro1/*, ro2, ro3*/],
   "Spectrum Martini Glass": [sp1/*, sp2, sp3, sp4*/],
   "Trippy Beer Glass": [tr1/*, tr2, tr3*/],

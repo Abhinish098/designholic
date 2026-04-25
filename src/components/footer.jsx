@@ -18,7 +18,7 @@ export default function Footer() {
                   margin-bottom: -10px;
                 }
               `}</style>
-              <LogoSVG />
+              <LogoSVG variant="footer" />
               <span className="footer-tagline">Where design meets daily life.</span>
             </div>
           </div>

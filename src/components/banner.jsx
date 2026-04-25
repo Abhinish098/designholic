@@ -2,24 +2,13 @@ import { useState, useEffect } from "react";
 import config from "../configs/config.js";
 
 // Hero Images
-import h1 from "../assets/Rags_collection/Car Rug/DSC_6577.JPG";
-import h2 from "../assets/Rags_collection/Lipstick Rug/01.png";
-import h3 from "../assets/Glass_collection/Black Swan Glass/170CC31A-CC6C-48F7-A134-244AB1DF0580.PNG";
-import h4 from "../assets/Vase_collection/Flat Bottle Vase/DSC_6686.jpg";
-import h5 from "../assets/Glass_collection/Bow-Blush Glass/01.jpg";
+import h1 from "../assets/Best_sellers/1.png";
+import h2 from "../assets/Best_sellers/2.png";
+import h3 from "../assets/Best_sellers/3.png";
 
-const { designTokens: T, heroSlides, stats } = config;
-const total = heroSlides.length;
-
-const PALETTE = ["#B8736A", "#6E8FA8", "#6FA880", "#A89A6E", "#8E6EA8", "#A86E8E", "#C09A42", "#5E92A8"];
-
-const HERO_IMAGES = {
-  "Car Rug": h1,
-  "Rare Beauty Soft Pinch": h2,
-  "Black Swan Wine Glass": h3,
-  "Flat Bottle Vase": h4,
-  "Bow-Blush Glass": h5
-};
+const BEST_SELLERS = [h1, h2, h3];
+const { designTokens: T, stats } = config;
+const total = BEST_SELLERS.length;
 
 const makeSVG = (col, i) => {
   const w = "rgba(255,255,255,0.35)";
@@ -74,12 +63,15 @@ export default function Banner({ goto }) {
       <div className="banner-content">
         <div className="banner-left">
           <div className="banner-tag">
-            <span className="star">✦</span>
-            <span>Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates</span>
+            <div className="banner-tag-ticker">
+              <span> Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates &nbsp; &nbsp;</span>
+              <span> Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates &nbsp; &nbsp;</span>
+              <span> Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates &nbsp; &nbsp;</span>
+            </div>
           </div>
 
           <h1 className="banner-title">
-            <span style={{ fontSize: "3rem" }}>Where Spaces Get Their</span><br />
+            <span style={{ fontSize: "0.65em", display: "inline-block" }}>Where Spaces Get Their</span><br />
             <span style={{ color: T.colors.red, fontStyle: "italic" }}>X-Factor</span>
           </h1>
 
@@ -114,28 +106,21 @@ export default function Banner({ goto }) {
         {/* ── HERO CAROUSEL ─────────────────────────────────────────── */}
         <div className="banner-right">
           <div className="hero-carousel">
-            {heroSlides.map((s, i) => (
+            {BEST_SELLERS.map((img, i) => (
               <div
                 key={i}
                 className={`carousel-slide ${i === slide ? "active" : ""}`}
-                style={{ 
-                  backgroundImage: HERO_IMAGES[s.label] 
-                    ? `url(${HERO_IMAGES[s.label]})` 
-                    : `url(${makeSVG(PALETTE[i % PALETTE.length], i)})` 
-                }}
               >
-                <div className="carousel-overlay" />
-                <div className="carousel-badge">{s.tag}</div>
-                <div className="carousel-info">
-                  <div className="carousel-cat">{s.category}</div>
-                  <div className="carousel-name">{s.label}</div>
-                </div>
+                {/* Blurred background fills any gaps */}
+                <div className="carousel-blur-bg" style={{ backgroundImage: `url(${img})` }} />
+                {/* Sharp full image on top */}
+                <img src={img} className="carousel-img" alt={`Best seller ${i + 1}`} />
               </div>
             ))}
 
             {/* Dots */}
             <div className="carousel-dots">
-              {heroSlides.map((_, i) => (
+              {BEST_SELLERS.map((_, i) => (
                 <button
                   key={i}
                   className={`carousel-dot ${i === slide ? "active" : ""}`}
