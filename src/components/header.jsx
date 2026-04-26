@@ -1,5 +1,6 @@
 import config from "../configs/config.js";
 import LogoSVG from "./LogoSVG";
+import writtenLogo from "../assets/Design_Holic_written_logo.png";
 
 const { contact } = config;
 
@@ -16,9 +17,11 @@ export default function Header({ scrolled, goto }) {
         </div>
 
         <div className="nav-links header-brand-wrap">
-          <div className="header-brand-line-1">DesignHolic</div>
-          <div className="header-brand-line-2">X</div>
-          <div className="header-brand-line-3">Store</div>
+          <img 
+            src={writtenLogo} 
+            alt="Design Holic Store" 
+            className="header-brand-logo"
+          />
         </div>
 
         <div className="header-actions">

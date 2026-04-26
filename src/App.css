@@ -422,39 +422,20 @@ body {
 
 .header-brand-wrap {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  padding-top: 10px;
+  justify-content: center;
   user-select: none;
+  flex: 1;
 }
 
-.header-brand-line-1 {
-  font-family: var(--CK);
-  font-size: 1.8rem;
-  color: var(--black);
-  margin-bottom: -25px;
+.header-brand-logo {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
-.header-brand-line-2 {
-  font-family: var(--PO);
-  font-weight: 700;
-  font-style: italic;
-  font-size: 20px;
-  color: var(--red);
-  transform: translateX(6px);
-  margin: 0;
-}
-
-.header-brand-line-3 {
-  font-family: var(--PO);
-  font-weight: 500;
-  font-size: 18px;
-  color: var(--black);
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  margin-top: -0.5px;
-}
+/* Legacy text branding styles removed */
 
 /* Buttons */
 .btn {
@@ -2166,25 +2147,13 @@ body {
   }
 
   .header-brand-wrap {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-    font-family: var(--PF);
-    font-weight: 800;
+    transform: translateX(48px);
   }
 
-  .header-brand-line-1 {
-    font-size: 1.2rem;
+  .header-brand-logo {
+    height: 82px;
   }
 
-  .header-brand-line-2 {
-    font-size: 0.8rem;
-    color: var(--red);
-  }
-
-  .header-brand-line-3 {
-    font-size: 1.2rem;
-  }
 
   .stats-grid {
     grid-template-columns: 1fr 1fr;
