@@ -184,7 +184,7 @@
         },
         {
           "name": "Bow-Blush Glass",
-          "size": "450 ml",
+          "size": "250 ml",
           "detail": "Single Piece",
           "price": 375,
           "tag": "Giftable"
@@ -213,14 +213,14 @@
         },
         {
           "name": "Bubble Tumbler",
-          "size": "350 ml",
+          "size": "300 ml",
           "detail": "Single Piece",
           "price": 375,
           "tag": "Modern"
         },
         {
           "name": "Black Heart Champagne Glass",
-          "size": "200 ml",
+          "size": "150 ml",
           "detail": "Set of 4 / 6",
           "price": 1999,
           "priceMax": 2999,
@@ -410,21 +410,21 @@
           "name": "Flat Bottle Vase",
           "size": "10″×4″",
           "detail": "1 vase",
-          "price": 1299,
+          "price": 899,
           "tag": "Trending"
         },
         {
           "name": "Flat Floral Vase",
           "size": "9″×5″",
           "detail": "1 vase",
-          "price": 1499,
+          "price": 899,
           "tag": "New Drop"
         },
         {
           "name": "Fridge Magnet Set",
           "size": "7cm × 4cm",
           "detail": "Set of 6",
-          "price": 599,
+          "price": 499,
           "tag": "Cute"
         }
       ]

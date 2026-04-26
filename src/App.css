@@ -915,7 +915,7 @@ body {
 .shop-section {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 5% 88px; /* Removed top padding */
+  padding: 108px 5% 88px; /* Removed top padding */
 }
 
 .section-header {
@@ -925,7 +925,7 @@ body {
   margin-bottom: 32px;
   flex-wrap: wrap;
   gap: 24px;
-  padding-top: 108px; /* Added back the top padding here */
+  /* padding-top: 108px; Added back the top padding here */
 }
 
 .section-header.center {
@@ -1069,6 +1069,38 @@ body {
   margin-top: 10px;
   text-align: left;
 }
+
+.category-note-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: var(--muted);
+  font-family: var(--IN);
+  font-size: 15px;
+  font-weight: 400;
+}
+.category-note-flex span:not(.dot-sep) {
+  flex: 1;
+  text-align: center;
+}
+.category-note-flex span:not(.dot-sep):first-child {
+  text-align: left;
+}
+.category-note-flex span:not(.dot-sep):last-child {
+  text-align: right;
+}
+.category-note-flex .dot-sep {
+  flex: 0 0 auto;
+  color: var(--muted);
+  margin: 0 0.5em;
+}
+@media (max-width: 640px) {
+  .category-note-flex {
+    font-size: 13px;
+  }
+}
+
 
 .product-count {
   font-family: var(--IN);
@@ -1748,9 +1780,11 @@ body {
   max-width: 360px;
 }
 
+
 .found-love-chip {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   font-family: var(--IN);
   font-size: 14px;

@@ -91,6 +91,14 @@ export default function ShopByCategory({ goto }) {
 
   return (
     <section id="products" className="shop-section">
+
+      <div className="section-header center">
+        <div className="label">Our Collection</div>
+        <h2 className="section-title center">
+          Shop by <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Category</span>
+        </h2>
+      </div>
+
       {/* Sticky category tabs */}
       <div className="category-tabs-wrap" ref={tabsRef}>
         <div className="category-tabs">
@@ -112,19 +120,20 @@ export default function ShopByCategory({ goto }) {
         </div>
       </div>
 
-      <div className="section-header center">
-        <div className="label">Our Collection</div>
-        <h2 className="section-title center">
-          Shop by <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Category</span>
-        </h2>
-      </div>
-
       {/* Category info bar */}
       {!isUnder500 && cat && (
         <div className="category-info">
           <div className="category-details">
             <div className="category-name">{cat.label}</div>
-            <div className="category-note">{cat.note}</div>
+            <div className="category-note-flex">
+  {cat.note.split(" · ").reduce((acc, part, idx, arr) => {
+    acc.push(<span key={`text-${idx}`}>{part}</span>);
+    if (idx < arr.length - 1) {
+      acc.push(<span key={`dot-${idx}`} className="dot-sep">·</span>);
+    }
+    return acc;
+  }, [])}
+</div>
           </div>
         </div>
       )}

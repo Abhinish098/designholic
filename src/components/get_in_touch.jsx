@@ -84,13 +84,6 @@ export default function GetInTouch() {
                 ))}
               </div>
 
-              <div className="payment-upi-box">
-                <div className="payment-upi-label">UPI ID</div>
-                <div className="payment-upi-val">{config.contact.upiId}</div>
-              </div>
-
-              <div className="payment-divider" />
-
               <div className="payment-steps-mini">
                 <div className="payment-step-mini"><span>①</span> Screenshot your fave</div>
                 <div className="payment-step-mini"><span>②</span> Send on WhatsApp</div>
