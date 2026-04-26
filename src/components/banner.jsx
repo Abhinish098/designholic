@@ -117,8 +117,6 @@ export default function Banner({ goto }) {
                 key={i}
                 className={`carousel-slide ${i === slide ? "active" : ""}`}
               >
-                {/* Blurred background fills any gaps */}
-                <div className="carousel-blur-bg" style={{ backgroundImage: `url(${img})` }} />
                 {/* Sharp full image on top */}
                 <img src={img} className="carousel-img" alt={`Best seller ${i + 1}`} />
               </div>

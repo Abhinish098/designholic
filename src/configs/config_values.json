@@ -51,11 +51,6 @@
           "price": 5900
         },
         {
-          "name": "Rug on Wheels",
-          "size": "5′×2′6″",
-          "price": 6499
-        },
-        {
           "name": "Drip of Love",
           "size": "4′×4′",
           "price": 5999
@@ -176,40 +171,51 @@
           "price": 1799,
           "priceMax": 2499,
           "variants": [
-            { "label": "Set of 4", "price": 1799 },
-            { "label": "Set of 6", "price": 2499 }
+            {
+              "label": "Set of 4",
+              "price": 1799
+            },
+            {
+              "label": "Set of 6",
+              "price": 2499
+            }
           ],
           "tag": "Bestseller"
         },
         {
-          "name": "Bow-tiful Wine Glass",
+          "name": "Bow-Blush Glass",
           "size": "450 ml",
-          "detail": "Set of 2 / 4 / 6",
-          "price": 999,
-          "priceMax": 2499,
-          "variants": [
-            { "label": "Set of 2", "price": 999 },
-            { "label": "Set of 4", "price": 1899 },
-            { "label": "Set of 6", "price": 2499 }
-          ],
+          "detail": "Single Piece",
+          "price": 375,
           "tag": "Giftable"
         },
         {
           "name": "Bow-tiful Champagne Glass",
           "size": "200 ml",
-          "detail": "Set of 4 / 6",
-          "price": 1999,
-          "priceMax": 2699,
-          "priceSets": "Set of 4 · Set of 6",
+          "detail": "Set of 2 / 4 / 6",
+          "price": 999,
+          "priceMax": 2499,
+          "variants": [
+            {
+              "label": "Set of 2",
+              "price": 999
+            },
+            {
+              "label": "Set of 4",
+              "price": 1899
+            },
+            {
+              "label": "Set of 6",
+              "price": 2499
+            }
+          ],
           "tag": "Elegant"
         },
         {
           "name": "Bubble Tumbler",
           "size": "350 ml",
-          "detail": "Set of 4 / 6",
-          "price": 1499,
-          "priceMax": 2199,
-          "priceSets": "Set of 4 · Set of 6",
+          "detail": "Single Piece",
+          "price": 375,
           "tag": "Modern"
         },
         {
@@ -219,37 +225,67 @@
           "price": 1999,
           "priceMax": 2999,
           "variants": [
-            { "label": "Set of 4", "price": 1999 },
-            { "label": "Set of 6", "price": 2999 }
+            {
+              "label": "Set of 4",
+              "price": 1999
+            },
+            {
+              "label": "Set of 6",
+              "price": 2999
+            }
           ],
           "tag": "Premium"
         },
         {
           "name": "Rose Champagne Glass",
           "size": "200 ml",
-          "detail": "Set of 4 / 6",
-          "price": 1999,
-          "priceMax": 2699,
-          "priceSets": "Set of 4 · Set of 6",
+          "detail": "Set of 2 / 4 / 6",
+          "price": 999,
+          "priceMax": 2499,
+          "variants": [
+            {
+              "label": "Set of 2",
+              "price": 999
+            },
+            {
+              "label": "Set of 4",
+              "price": 1899
+            },
+            {
+              "label": "Set of 6",
+              "price": 2499
+            }
+          ],
           "tag": "Popular"
         },
         {
           "name": "Spectrum Martini Glass",
           "size": "250 ml",
-          "detail": "Set of 4 / 6",
-          "price": 1899,
-          "priceMax": 2599,
-          "priceSets": "Set of 4 · Set of 6",
+          "detail": "Set of 1 / 4 / 6",
+          "price": 499,
+          "priceMax": 2899,
+          "variants": [
+            {
+              "label": "Single Piece",
+              "price": 499
+            },
+            {
+              "label": "Set of 4",
+              "price": 1999
+            },
+            {
+              "label": "Set of 6",
+              "price": 2899
+            }
+          ],
           "tag": "Party Pick"
         },
         {
           "name": "Trippy Beer Glass",
           "size": "500 ml",
-          "detail": "Set of 4 / 6",
-          "price": 1299,
-          "priceMax": 1799,
-          "priceSets": "Set of 4 · Set of 6",
-          "tag": "Fun"
+          "detail": "Single Piece",
+          "price": 450,
+          "tag": "Giftable"
         }
       ]
     },
@@ -275,9 +311,18 @@
           "price": 1399,
           "priceMax": 2499,
           "variants": [
-            { "label": "Set of 2", "price": 1399 },
-            { "label": "Set of 4", "price": 1899 },
-            { "label": "Set of 6", "price": 2499 }
+            {
+              "label": "Set of 2",
+              "price": 1399
+            },
+            {
+              "label": "Set of 4",
+              "price": 1899
+            },
+            {
+              "label": "Set of 6",
+              "price": 2499
+            }
           ],
           "tag": "Bestseller",
           "material": "Brass"
@@ -289,9 +334,18 @@
           "price": 1399,
           "priceMax": 2499,
           "variants": [
-            { "label": "Set of 2", "price": 1399 },
-            { "label": "Set of 4", "price": 1899 },
-            { "label": "Set of 6", "price": 2499 }
+            {
+              "label": "Set of 2",
+              "price": 1399
+            },
+            {
+              "label": "Set of 4",
+              "price": 1899
+            },
+            {
+              "label": "Set of 6",
+              "price": 2499
+            }
           ],
           "material": "Brass"
         },
@@ -302,9 +356,18 @@
           "price": 1399,
           "priceMax": 2499,
           "variants": [
-            { "label": "Set of 2", "price": 1399 },
-            { "label": "Set of 4", "price": 1899 },
-            { "label": "Set of 6", "price": 2499 }
+            {
+              "label": "Set of 2",
+              "price": 1399
+            },
+            {
+              "label": "Set of 4",
+              "price": 1899
+            },
+            {
+              "label": "Set of 6",
+              "price": 2499
+            }
           ],
           "material": "Borosilicate Glass"
         }
@@ -359,7 +422,7 @@
         },
         {
           "name": "Fridge Magnet Set",
-          "size": "Assorted",
+          "size": "7cm × 4cm",
           "detail": "Set of 6",
           "price": 599,
           "tag": "Cute"
@@ -368,7 +431,7 @@
     },
     {
       "id": "decor",
-      "label": "Décor",
+      "label": "Wall Stick-On",
       "icon": "✨",
       "note": "Stick-on Signs · Pinteresty Vibes · Easy to Install",
       "products": [
@@ -423,6 +486,118 @@
         },
         {
           "name": "Stop Snack Time",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Ghar",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Good Vibes",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Khwaab",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Kitchen Sign Boards",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Lost & Found",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Manifestation Signs",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Men-verse Signs",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Mr. Cool",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Pyaar",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Reels Ready",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Sapna",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Tu Hei Sukoon",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Waqt",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Women-verse Signs",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Wtf",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Xoxo",
           "size": "8″×8″",
           "detail": "Aluminium · Stick-on",
           "price": 499,
@@ -580,7 +755,7 @@
     "PLATES",
     "GLASSWARE",
     "VASES",
-    "DÉCOR",
+    "Wall Stick-On",
     "SPOONS",
     "HANGERS",
     "GIFTING"

@@ -36,7 +36,6 @@ html {
 }
 
 body {
-  overflow-x: hidden;
   background: var(--cream);
   -webkit-font-smoothing: antialiased;
 }
@@ -349,14 +348,14 @@ body {
   font-family: var(--IN);
   background: var(--cream);
   color: var(--black);
-  overflow: clip;
   min-height: 100vh;
 }
 
 /* Header */
 .header {
-  position: sticky;
-  top: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
   z-index: 300;
   background: var(--cream);
   border-bottom: 1px solid transparent;
@@ -551,7 +550,7 @@ body {
 .banner {
   width: 100%;
   margin: 0;
-  padding-top: 44px;
+  padding-top: 140px; /* Accounts for 96px header + 44px original padding */
 }
 
 .banner-content {
@@ -671,7 +670,7 @@ body {
 /* ── Hero Carousel ────────────────────────────────────────── */
 .hero-carousel {
   width: 468px;
-  height: 680px;
+  height: 650px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -685,24 +684,16 @@ body {
   opacity: 0;
   transition: opacity 0.8s ease;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-}
-
-.carousel-blur-bg {
-  position: absolute;
-  inset: -20px;
-  background-size: cover;
-  background-position: center;
-  filter: blur(18px);
-  transform: scale(1.1);
 }
 
 .carousel-img {
   position: relative;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: top;
   z-index: 1;
 }
 
@@ -924,7 +915,7 @@ body {
 .shop-section {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 108px 5% 88px;
+  padding: 0 5% 88px; /* Removed top padding */
 }
 
 .section-header {
@@ -934,6 +925,7 @@ body {
   margin-bottom: 32px;
   flex-wrap: wrap;
   gap: 24px;
+  padding-top: 108px; /* Added back the top padding here */
 }
 
 .section-header.center {
@@ -992,12 +984,13 @@ body {
 /* Category Tabs sticky wrapper */
 .category-tabs-wrap {
   position: sticky;
-  top: 96px;
+  top: 0;
   z-index: 250;
   background: var(--cream);
   border-bottom: 1px solid var(--border);
   margin-bottom: 32px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  will-change: transform;
 }
 
 .category-tabs {
@@ -1138,6 +1131,65 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.thumb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.2s ease;
+  color: var(--black);
+  padding: 0;
+  opacity: 0.25;
+}
+
+.thumb-nav:hover {
+  opacity: 0.5;
+  background: var(--white);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.thumb-prev {
+  left: 10px;
+}
+
+.thumb-next {
+  right: 10px;
+}
+
+.thumb-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 5;
+}
+
+.thumb-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.thumb-dot.active {
+  background: var(--white);
+  width: 14px;
+  border-radius: 4px;
 }
 
 .product-info {
@@ -2082,11 +2134,6 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-carousel {
-    width: 100%;
-    height: 360px;
-  }
-
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2161,8 +2208,10 @@ body {
 
   .hero-carousel {
     width: 100%;
+    max-width: 468px;
     height: auto;
-    aspect-ratio: 468 / 600;
+    aspect-ratio: 468 / 650;
+    margin: 0 auto;
   }
 
   .customer-photos-grid {
@@ -2178,7 +2227,8 @@ body {
   }
 
   .category-tabs-wrap {
-    top: 64px;
+    top: 0;
+    will-change: transform;
   }
 }
 

@@ -150,6 +150,58 @@ import d_sna2 from "../assets/Sign_bords_collection/Stop Snack Time/DSC_6780.jpg
 import d_sna3 from "../assets/Sign_bords_collection/Stop Snack Time/M 1.jpg";
 import d_sna4 from "../assets/Sign_bords_collection/Stop Snack Time/Snack Time.jpg";
 
+import d_gha1 from "../assets/Sign_bords_collection/Ghar/Ghar (2).png";
+
+import d_goo1 from "../assets/Sign_bords_collection/Good vibes/18074e8e-c199-4071-a070-d0eaa68e29a6.png";
+import d_goo2 from "../assets/Sign_bords_collection/Good vibes/DSC_6799.jpg";
+import d_goo3 from "../assets/Sign_bords_collection/Good vibes/M 5.jpg";
+
+import d_khw1 from "../assets/Sign_bords_collection/Khwaab/4b216995-1022-4f2a-8f11-95d3597e0c73.png";
+import d_khw2 from "../assets/Sign_bords_collection/Khwaab/DSC_6796.jpg";
+import d_khw3 from "../assets/Sign_bords_collection/Khwaab/M 5.jpg";
+
+import d_kit1 from "../assets/Sign_bords_collection/Kitchen/0247ea8b-acce-49b5-af06-94a1c2de9cd1.png";
+import d_kit2 from "../assets/Sign_bords_collection/Kitchen/0bf9aad5-6ff8-4a60-97f8-5988c073ee9b.png";
+import d_kit3 from "../assets/Sign_bords_collection/Kitchen/M 2.jpg";
+
+import d_los1 from "../assets/Sign_bords_collection/Lost & Found/6caf3a89-dd73-4a6c-96cc-d0404c567a0b.png";
+import d_los2 from "../assets/Sign_bords_collection/Lost & Found/d2d41c81-bca6-4b37-a6fd-b54aaae92981.png";
+import d_los3 from "../assets/Sign_bords_collection/Lost & Found/DSC_6794.jpg";
+import d_los4 from "../assets/Sign_bords_collection/Lost & Found/M 5.jpg";
+
+import d_mani1 from "../assets/Sign_bords_collection/Maniefestation/10a23032-ba49-4439-8d7c-847197b2fbf1.png";
+import d_mani2 from "../assets/Sign_bords_collection/Maniefestation/63348d5e-45f9-41d9-b676-a23c5311f215.png";
+import d_mani3 from "../assets/Sign_bords_collection/Maniefestation/M 2.jpg";
+
+import d_men1 from "../assets/Sign_bords_collection/Men-verse/11cdaa4c-2242-4382-9c37-6e95612d1b55.png";
+import d_men2 from "../assets/Sign_bords_collection/Men-verse/3a354188-6f34-401a-939f-5561a4ff27fa.png";
+import d_men3 from "../assets/Sign_bords_collection/Men-verse/M 2.jpg";
+
+import d_mrc1 from "../assets/Sign_bords_collection/Mr.Cool/DSC_6800.jpg";
+import d_mrc2 from "../assets/Sign_bords_collection/Mr.Cool/e1cb011c-5c40-42c2-a41e-95d986ebe423.png";
+import d_mrc3 from "../assets/Sign_bords_collection/Mr.Cool/M 5.jpg";
+
+import d_pya1 from "../assets/Sign_bords_collection/Pyaar/Pyaar.png";
+
+import d_ree1 from "../assets/Sign_bords_collection/Reels Ready/702a1458-d8be-455d-946e-d0714d559f90.png";
+import d_ree2 from "../assets/Sign_bords_collection/Reels Ready/DSC_6797.jpg";
+import d_ree3 from "../assets/Sign_bords_collection/Reels Ready/M 5.jpg";
+
+import d_sap1 from "../assets/Sign_bords_collection/Sapna/sapana.png";
+
+import d_suk1 from "../assets/Sign_bords_collection/Tu hei Sukoon/2c53cd06-8fe4-4448-9ded-120d9469d97f.png";
+import d_suk2 from "../assets/Sign_bords_collection/Tu hei Sukoon/DSC_6798.jpg";
+import d_suk3 from "../assets/Sign_bords_collection/Tu hei Sukoon/M 5.jpg";
+
+import d_waq1 from "../assets/Sign_bords_collection/Waqt/waqt.png";
+
+import d_wom1 from "../assets/Sign_bords_collection/Women-verse/459debce-724b-49ea-8f13-139b00603e49.png";
+import d_wom2 from "../assets/Sign_bords_collection/Women-verse/52ab23f1-ea42-4c39-956f-f66f2529e9de.png";
+import d_wom3 from "../assets/Sign_bords_collection/Women-verse/M 2.jpg";
+
+import d_wtf1 from "../assets/Sign_bords_collection/Wtf/wtf.png";
+import d_xox1 from "../assets/Sign_bords_collection/Xoxo/xoxo.png";
+
 // ── GIFTING ───────────────────────────────────────────────
 import g_mot1 from "../assets/Mother_silhouette_collection/4F230DF2-9B8A-4DC1-B051-167D18E2F2B6.png";
 import g_mot2 from "../assets/Mother_silhouette_collection/CC8B7E4D-4CD4-42AE-9DBD-A9F8A146CF82.png";
@@ -160,7 +212,7 @@ const IMAGE_MAP = {
   // GLASS
   "Vintage Coca Cola": [vc1, vc2, vc3, vc4],
   "Black Swan Wine Glass": [bs1, bs2, bs3, bs4, bs5],
-  "Bow-tiful Wine Glass": [bb1, bb2, bb3],
+  "Bow-Blush Glass": [bb1, bb2, bb3],
   "Bow-tiful Champagne Glass": [bt1, bt2, bt3],
   "Bubble Tumbler": [bu1, bu2, bu3, bu4],
   "Black Heart Champagne Glass": [dw1, dw2, dw3],
@@ -207,8 +259,8 @@ const IMAGE_MAP = {
   "Phases of Moon": [h_moon1, h_moon2, h_moon3],
   "Hang-O-Scale": [h_hang1, h_hang2, h_hang3],
 
-  // DECOR (SIGN BOARDS)
-  "Sign Board": [d_pri1, d_pri2, d_pri3, d_pri4],
+  // Wall Stick-On (SIGN BOARDS)
+  "Private Me Time": [d_pri1, d_pri2, d_pri3, d_pri4],
   "Caution May Contain Drama": [d_cau1, d_cau2, d_cau3, d_cau4],
   "Dramatic Exit": [d_dra1, d_dra2],
   "Hot Mess Zone": [d_hot1, d_hot2, d_hot3],
@@ -216,6 +268,22 @@ const IMAGE_MAP = {
   "No Bad Vibes": [d_bad1, d_bad2, d_bad3],
   "Peace Out This Way": [d_pea1, d_pea2, d_pea3],
   "Stop Snack Time": [d_sna1, d_sna2, d_sna3, d_sna4],
+  "Ghar": [d_gha1],
+  "Good Vibes": [d_goo1, d_goo2, d_goo3],
+  "Khwaab": [d_khw1, d_khw2, d_khw3],
+  "Kitchen Sign Boards": [d_kit1, d_kit2, d_kit3],
+  "Lost & Found": [d_los1, d_los2, d_los3, d_los4],
+  "Manifestation Signs": [d_mani1, d_mani2, d_mani3],
+  "Men-verse Signs": [d_men1, d_men2, d_men3],
+  "Mr. Cool": [d_mrc1, d_mrc2, d_mrc3],
+  "Pyaar": [d_pya1],
+  "Reels Ready": [d_ree1, d_ree2, d_ree3],
+  "Sapna": [d_sap1],
+  "Tu Hei Sukoon": [d_suk1, d_suk2, d_suk3],
+  "Waqt": [d_waq1],
+  "Women-verse Signs": [d_wom1, d_wom2, d_wom3],
+  "Wtf": [d_wtf1],
+  "Xoxo": [d_xox1],
 
   // GIFTING
   "Mother Silhouette": [g_mot1, g_mot2, g_mot3, g_mot4]
@@ -290,19 +358,17 @@ export default function Thumb({ product, index }) {
       }, 1500 + (index * 100));
       return () => clearTimeout(loadTimer);
     }
+  }, [images, loadedCount, index]);
 
-    // Only rotate if visible to save CPU/GPU
-    if (!isVisible) return;
+  const nextSlide = (e) => {
+    e.stopPropagation();
+    setCurrentIdx((prev) => (prev + 1) % images.length);
+  };
 
-    let timer;
-    const rotate = () => {
-      setCurrentIdx((prev) => (prev + 1) % images.length);
-      timer = setTimeout(rotate, 5000);
-    };
-
-    timer = setTimeout(rotate, 5000);
-    return () => clearTimeout(timer);
-  }, [images, loadedCount, index, isVisible]);
+  const prevSlide = (e) => {
+    e.stopPropagation();
+    setCurrentIdx((prev) => (prev - 1 + images.length) % images.length);
+  };
 
   const col = PALETTE[index % PALETTE.length];
 
@@ -324,16 +390,48 @@ export default function Thumb({ product, index }) {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                transition: 'opacity 0.8s ease-in-out',
+                transition: 'opacity 0.6s ease-in-out',
                 opacity: i === currentIdx ? 1 : 0,
                 zIndex: i === currentIdx ? 1 : 0,
-                // GPU Acceleration
                 willChange: 'opacity',
                 transform: 'translateZ(0)',
-                backfaceVisibility: 'hidden'
               }}
             />
           ))}
+
+          {/* Slider Controls */}
+          {images.length > 1 && (
+            <>
+              <button
+                className="thumb-nav thumb-prev"
+                onClick={prevSlide}
+                aria-label="Previous image"
+              >
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2.5" fill="none">
+                  <path d="M15 18l-6-6 6-6" />
+                </svg>
+              </button>
+              <button
+                className="thumb-nav thumb-next"
+                onClick={nextSlide}
+                aria-label="Next image"
+              >
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2.5" fill="none">
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+              </button>
+
+              {/* Pagination Dots */}
+              <div className="thumb-dots">
+                {images.map((_, i) => (
+                  <div
+                    key={i}
+                    className={`thumb-dot ${i === currentIdx ? 'active' : ''}`}
+                  />
+                ))}
+              </div>
+            </>
+          )}
         </div>
       ) : (
         <img src={makeSVG(col, index)} alt="" />

@@ -91,13 +91,6 @@ export default function ShopByCategory({ goto }) {
 
   return (
     <section id="products" className="shop-section">
-      <div className="section-header center">
-        <div className="label">Our Collection</div>
-        <h2 className="section-title center">
-          Shop by <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Category</span>
-        </h2>
-      </div>
-
       {/* Sticky category tabs */}
       <div className="category-tabs-wrap" ref={tabsRef}>
         <div className="category-tabs">
@@ -117,6 +110,13 @@ export default function ShopByCategory({ goto }) {
             🏷 Under ₹500
           </button>
         </div>
+      </div>
+
+      <div className="section-header center">
+        <div className="label">Our Collection</div>
+        <h2 className="section-title center">
+          Shop by <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>Category</span>
+        </h2>
       </div>
 
       {/* Category info bar */}
