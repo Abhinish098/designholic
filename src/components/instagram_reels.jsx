@@ -50,16 +50,15 @@ export default function InstagramReels() {
         {/* Header */}
         <div className="section-header center" style={{ padding: '0 5%' }}>
           <div>
-            <div className="label center">
-              <span className="star">✦</span>
-              As Seen on Instagram
+            <div className="section-header center">
+              <div className="label center">As Seen on Instagram</div>
+              <h2 className="section-title center">
+                Catch us on{" "}
+                <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>
+                  Reels
+                </span>
+              </h2>
             </div>
-            <h2 className="section-title center">
-              Catch us on{" "}
-              <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>
-                Reels
-              </span>
-            </h2>
           </div>
           <a
             href={contact.instagramLink}

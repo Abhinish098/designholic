@@ -4,20 +4,17 @@ const { designTokens: T, reviews } = config;
 
 export default function WhatTheySaying() {
   return (
-    <section className="reviews-section">
-      <div className="section-inner">
-        <div className="section-header">
-          <div>
-            <div className="label">Happy Customers</div>
-            <h2 className="section-title">
-              What they're <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>saying</span>
+    <section className="reviews-section container center">
+      <div className="section-inner center">
+        <div className="section-header center">
+          <div className="section-header center">
+            <div className="label center">Happy Customers!</div>
+            <h2 className="section-title center">
+              What they're{" "}
+              <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>
+                Saying?
+              </span>
             </h2>
-          </div>
-          <div className="rating-display">
-            {"★★★★★".split("").map((_, i) => (
-              <span key={i} className="star">★</span>
-            ))}
-            <span className="rating-text">5.0 average</span>
           </div>
         </div>
 

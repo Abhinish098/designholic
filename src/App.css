@@ -19,6 +19,7 @@
   --PF: 'Playfair Display', Georgia, serif;
   --IN: 'Inter', system-ui, sans-serif;
   --CK: 'Concetta Kalvani', serif;
+  --PO: 'Poppins', sans-serif;
 }
 
 /* Global Reset */
@@ -348,7 +349,7 @@ body {
   font-family: var(--IN);
   background: var(--cream);
   color: var(--black);
-  overflow-x: hidden;
+  overflow: clip;
   min-height: 100vh;
 }
 
@@ -423,8 +424,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 0.8;
-  padding-top: 5px;
+  justify-content: flex-end;
+  padding-top: 10px;
   user-select: none;
 }
 
@@ -432,24 +433,27 @@ body {
   font-family: var(--CK);
   font-size: 1.8rem;
   color: var(--black);
+  margin-bottom: -25px;
 }
 
 .header-brand-line-2 {
-  font-family: var(--PF);
+  font-family: var(--PO);
+  font-weight: 700;
   font-style: italic;
-  font-weight: 800;
-  font-size: 1.4rem;
+  font-size: 20px;
   color: var(--red);
-  margin: -2px 0;
+  transform: translateX(6px);
+  margin: 0;
 }
 
 .header-brand-line-3 {
-  font-family: var(--IN);
-  font-weight: 700;
-  font-size: 1rem;
+  font-family: var(--PO);
+  font-weight: 500;
+  font-size: 18px;
   color: var(--black);
   text-transform: uppercase;
   letter-spacing: 4px;
+  margin-top: -0.5px;
 }
 
 /* Buttons */
@@ -594,8 +598,8 @@ body {
 }
 
 .banner-tag-ticker {
-  animation: ticker 30s linear infinite;
-  display: inline-block;
+  animation: ticker 60s linear infinite;
+  display: flex;
   white-space: nowrap;
   will-change: transform;
 }
@@ -1008,10 +1012,11 @@ body {
 .category-tabs-wrap {
   position: sticky;
   top: 96px;
-  z-index: 200;
+  z-index: 250;
   background: var(--cream);
-  border-bottom: 2px solid var(--border);
-  margin-bottom: 48px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
 }
 
 .category-tabs {
@@ -1265,16 +1270,11 @@ body {
 }
 
 .card-cta {
-  opacity: 0;
-  transform: translateY(6px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 0.25s, transform 0.25s;
   padding: 12px 22px;
   font-size: 11px;
-}
-
-.product-card:hover .card-cta {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 /* Why Section */
@@ -1334,86 +1334,50 @@ body {
 .order-section {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 108px 5%;
+  padding: 80px 5% 0;
 }
 
-.steps-grid {
+.steps-list {
   display: flex;
-}
-
-.step-card {
-  flex: 1;
-  padding: 48px 32px;
-  text-align: center;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-left: none;
-  position: relative;
-  transition: box-shadow 0.25s;
-}
-
-.step-card:first-child {
-  border-left: 1px solid var(--border);
-}
-
-.step-card:hover {
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
-}
-
-.step-icon {
-  width: 68px;
-  height: 68px;
-  background: var(--black);
-  border-radius: 50%;
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  margin: 0 auto 22px;
-  flex-shrink: 0;
+  gap: 32px;
+  margin-top: 48px;
 }
 
-.step-number {
-  font-family: var(--IN);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
+.simple-step {
+  display: flex;
+  align-items: baseline;
+  gap: 32px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.step-num {
+  font-family: var(--CK);
   color: var(--red);
-  margin-bottom: 10px;
+  font-size: 32px;
+  flex-shrink: 0;
+  width: 140px;
+  text-align: right;
+}
+
+.step-content {
+  flex: 1;
+  font-family: var(--IN);
+  font-size: 22px;
+  color: var(--black);
+  line-height: 1.5;
 }
 
 .step-title {
-  font-family: var(--PF);
-  font-size: 21px;
   font-weight: 700;
-  color: var(--black);
-  margin-bottom: 12px;
+  margin-right: 8px;
 }
 
 .step-desc {
-  font-family: var(--IN);
-  font-size: 14px;
-  color: #777;
-  line-height: 1.75;
-}
-
-.step-arrow {
-  position: absolute;
-  top: 50%;
-  right: -16px;
-  transform: translateY(-50%);
-  background: var(--red);
-  color: #fff;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  z-index: 5;
-  font-weight: 700;
-  box-shadow: 0 4px 14px rgba(230, 51, 41, 0.35);
+  color: var(--muted);
+  font-weight: 400;
 }
 
 .order-cta {

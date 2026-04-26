@@ -62,9 +62,14 @@ export default function Banner({ goto }) {
     <section className="banner">
       <div className="banner-tag">
         <div className="banner-tag-ticker">
-          <span> Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates &nbsp; &nbsp;</span>
-          <span> Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates &nbsp; &nbsp;</span>
-          <span> Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates &nbsp; &nbsp;</span>
+          {[1, 2].map((i) => (
+            <span key={i}>
+              Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates •&nbsp;
+              Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates •&nbsp;
+              Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates •&nbsp;
+              Tufted Rugs • Rental-Friendly Decor • Contemporary Glassware • Statement Ceramic Plates •&nbsp;
+            </span>
+          ))}
         </div>
       </div>
 

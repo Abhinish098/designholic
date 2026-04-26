@@ -370,59 +370,63 @@
       "id": "decor",
       "label": "Décor",
       "icon": "✨",
-      "note": "Stick-on Signs · Fridge Magnets & More",
+      "note": "Stick-on Signs · Pinteresty Vibes · Easy to Install",
       "products": [
         {
-          "name": "Sign Board",
+          "name": "Caution May Contain Drama",
           "size": "8″×8″",
           "detail": "Aluminium · Stick-on",
           "price": 499,
           "tag": "Stick-on"
         },
         {
-          "name": "Word Plate Small",
-          "size": "4″×8″",
-          "detail": "Aluminium · Stick-on",
-          "price": 399,
-          "tag": "Stick-on"
-        },
-        {
-          "name": "Word Plate Large",
-          "size": "4″×17″",
+          "name": "Dramatic Exit",
+          "size": "8″×8″",
           "detail": "Aluminium · Stick-on",
           "price": 499,
           "tag": "Stick-on"
         },
         {
-          "name": "Fridge Magnet Assorted",
-          "size": "1.5″×1″",
-          "detail": "Set of 5 – Ceramic",
+          "name": "Hot Mess Zone",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
           "price": 499,
-          "tag": "Fan Fav"
+          "tag": "Stick-on"
         },
         {
-          "name": "Acrylic Boards – Kitchen",
-          "size": "7″×7″",
-          "detail": "Mirror / Solid colour",
-          "price": 399
+          "name": "Main Character Energy",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
         },
         {
-          "name": "Acrylic Boards – Manifestation",
-          "size": "7″×7″",
-          "detail": "Mirror / Solid colour",
-          "price": 399
+          "name": "No Bad Vibes",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
         },
         {
-          "name": "Acrylic Boards – Women",
-          "size": "7″×7″",
-          "detail": "Mirror / Solid colour",
-          "price": 399
+          "name": "Peace Out This Way",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
         },
         {
-          "name": "Acrylic Boards – Men",
-          "size": "7″×7″",
-          "detail": "Mirror / Solid colour",
-          "price": 399
+          "name": "Private Me Time",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
+        },
+        {
+          "name": "Stop Snack Time",
+          "size": "8″×8″",
+          "detail": "Aluminium · Stick-on",
+          "price": 499,
+          "tag": "Stick-on"
         }
       ]
     },

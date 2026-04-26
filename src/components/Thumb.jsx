@@ -75,36 +75,150 @@ import v_mag5 from "../assets/Vase_collection/Fridge Magnets/M 6.jpg";
 import v_mag6 from "../assets/Vase_collection/Fridge Magnets/M4.jpg";
 import v_mag7 from "../assets/Vase_collection/Fridge Magnets/M5.jpg";
 
+// ── PLATES ────────────────────────────────────────────────
+import p_kiwi1 from "../assets/Plates_collection/Kiwi Plate/1A22F678-5EC0-431D-86E4-6546E884B65F.png";
+import p_kiwi2 from "../assets/Plates_collection/Kiwi Plate/39E94CEB-C2C5-4F33-83AE-828AC8CB3D62.png";
+import p_kiwi3 from "../assets/Plates_collection/Kiwi Plate/420A86A1-1271-4A6A-A1EF-E0D049C61BF9.png";
+import p_por1 from "../assets/Plates_collection/Portion Plate/37ADE9FA-6CB0-4063-93A4-45F619E88C01.png";
+import p_por2 from "../assets/Plates_collection/Portion Plate/DSC_6999.jpg";
+import p_por3 from "../assets/Plates_collection/Portion Plate/f7ed1ed2-8dc3-4084-91bb-c63171a2012f.png";
+import p_ros1 from "../assets/Plates_collection/Rosava/BBD08B2C-EB0E-47EA-95B9-44CC76D61F1E.png";
+import p_ros2 from "../assets/Plates_collection/Rosava/DSC_6987.jpg";
+import p_sap1 from "../assets/Plates_collection/Sapphire Bloom/ABBA4C23-C98F-4CDF-BEC0-6210DF7CE764 (1).png";
+import p_sap2 from "../assets/Plates_collection/Sapphire Bloom/DSC_6990.jpg";
+import p_toast1 from "../assets/Plates_collection/Toast and Tasty Plate/DSC_7023.jpg";
+import p_toast2 from "../assets/Plates_collection/Toast and Tasty Plate/DSC_7026.jpg";
+import p_toast3 from "../assets/Plates_collection/Toast and Tasty Plate/DSC_7112.jpg";
+import p_vit1 from "../assets/Plates_collection/Vitamin-C plate/58918BBC-33D6-4B57-BC29-EA3930E7DC9D.png";
+import p_vit2 from "../assets/Plates_collection/Vitamin-C plate/DSC_7010 copy.jpg";
+import p_vit3 from "../assets/Plates_collection/Vitamin-C plate/DSC_7122.jpg";
+import p_wat1 from "../assets/Plates_collection/Water melon/01.png";
+
+// ── SPOONS ────────────────────────────────────────────────
+import s_buzz1 from "../assets/Spoons_collection/Buzz Spoon/314cfd42-4867-47b7-93ea-dfe3d2af7f76.png";
+import s_buzz2 from "../assets/Spoons_collection/Buzz Spoon/7a152b84-0ff4-40e3-83e5-cf31fe75a28c.png";
+import s_buzz3 from "../assets/Spoons_collection/Buzz Spoon/e62fb8f2-7f67-4dc5-b7a7-92a015523af3.png";
+import s_fea1 from "../assets/Spoons_collection/Feathers Touch/63e68709-1bba-4e61-9b53-79c81522d60f.png";
+import s_fea2 from "../assets/Spoons_collection/Feathers Touch/b82454ee-58de-4a67-9e9e-5fafc7f7754c.png";
+import s_fea3 from "../assets/Spoons_collection/Feathers Touch/DSC_6992.jpg";
+import s_flo1 from "../assets/Spoons_collection/Floral Spoon/98e9d749-05bb-40a4-8701-6b79d7cf48de.png";
+import s_flo2 from "../assets/Spoons_collection/Floral Spoon/ef5dbb99-2814-43a7-a7fd-af0e5be9c503.png";
+import s_heart1 from "../assets/Spoons_collection/Heart of Gold Spoon/0e7119e4-2653-410c-ba16-59c68f751b53.png";
+import s_heart2 from "../assets/Spoons_collection/Heart of Gold Spoon/4cf96e7d-2a29-484e-8b88-2ea26b4ec0e0.png";
+import s_heart3 from "../assets/Spoons_collection/Heart of Gold Spoon/75c26569-37ca-42e4-a6d8-b9447705e98d.png";
+import s_heart4 from "../assets/Spoons_collection/Heart of Gold Spoon/D72DBEA5-3686-44B2-9E52-1233FCD119D0.png";
+import s_sweet1 from "../assets/Spoons_collection/Sweet Heart Spoon/8FD77C2A-016E-4ADA-AC49-3A5ED35E55DC.png";
+import s_sweet2 from "../assets/Spoons_collection/Sweet Heart Spoon/DSC_7038.jpg";
+import s_sweet3 from "../assets/Spoons_collection/Sweet Heart Spoon/DSC_7040.jpg";
+
+// ── HANGERS ───────────────────────────────────────────────
+import h_hang1 from "../assets/Hanger_collection/Hang-o-meter/01.png";
+import h_hang2 from "../assets/Hanger_collection/Hang-o-meter/02.png";
+import h_hang3 from "../assets/Hanger_collection/Hang-o-meter/03.png";
+import h_moon1 from "../assets/Hanger_collection/Phase of Moon/01.png";
+import h_moon2 from "../assets/Hanger_collection/Phase of Moon/02.png";
+import h_moon3 from "../assets/Hanger_collection/Phase of Moon/04.png";
+import h_safe1 from "../assets/Hanger_collection/Safety Pin Hook/01.png";
+import h_safe2 from "../assets/Hanger_collection/Safety Pin Hook/DSC_7204.jpg";
+import h_safe3 from "../assets/Hanger_collection/Safety Pin Hook/Measurements.jpg";
+
+// ── DECOR (SIGN BOARDS) ───────────────────────────────────
+import d_cau1 from "../assets/Sign_bords_collection/Caution May Contain Drama/01.jpg";
+import d_cau2 from "../assets/Sign_bords_collection/Caution May Contain Drama/DSC_6781.jpg";
+import d_cau3 from "../assets/Sign_bords_collection/Caution May Contain Drama/DSC_7124.jpg";
+import d_cau4 from "../assets/Sign_bords_collection/Caution May Contain Drama/M 1.jpg";
+import d_dra1 from "../assets/Sign_bords_collection/Dramatic Exit/DSC_6508.jpg";
+import d_dra2 from "../assets/Sign_bords_collection/Dramatic Exit/DSC_6783.jpg";
+import d_hot1 from "../assets/Sign_bords_collection/Hot Mess Zone/DSC_6507.jpg";
+import d_hot2 from "../assets/Sign_bords_collection/Hot Mess Zone/DSC_6782.jpg";
+import d_hot3 from "../assets/Sign_bords_collection/Hot Mess Zone/M 1.jpg";
+import d_main1 from "../assets/Sign_bords_collection/Main Character Energy/DSC_6505.jpg";
+import d_main2 from "../assets/Sign_bords_collection/Main Character Energy/DSC_6778.jpg";
+import d_main3 from "../assets/Sign_bords_collection/Main Character Energy/M 1.jpg";
+import d_bad1 from "../assets/Sign_bords_collection/No Bad Vibes/DSC_6503.jpg";
+import d_bad2 from "../assets/Sign_bords_collection/No Bad Vibes/DSC_6779.jpg";
+import d_bad3 from "../assets/Sign_bords_collection/No Bad Vibes/M 1.jpg";
+import d_pea1 from "../assets/Sign_bords_collection/Peace Out This Way/DSC_6504.jpg";
+import d_pea2 from "../assets/Sign_bords_collection/Peace Out This Way/DSC_6777.jpg";
+import d_pea3 from "../assets/Sign_bords_collection/Peace Out This Way/M 1.jpg";
+import d_pri1 from "../assets/Sign_bords_collection/Private Me Time/DSC_6506.jpg";
+import d_pri2 from "../assets/Sign_bords_collection/Private Me Time/DSC_6774.jpg";
+import d_pri3 from "../assets/Sign_bords_collection/Private Me Time/DSC_6915.jpg";
+import d_pri4 from "../assets/Sign_bords_collection/Private Me Time/M 1.jpg";
+import d_sna1 from "../assets/Sign_bords_collection/Stop Snack Time/DSC_6502.jpg";
+import d_sna2 from "../assets/Sign_bords_collection/Stop Snack Time/DSC_6780.jpg";
+import d_sna3 from "../assets/Sign_bords_collection/Stop Snack Time/M 1.jpg";
+import d_sna4 from "../assets/Sign_bords_collection/Stop Snack Time/Snack Time.jpg";
+
+// ── GIFTING ───────────────────────────────────────────────
+import g_mot1 from "../assets/Mother_silhouette_collection/4F230DF2-9B8A-4DC1-B051-167D18E2F2B6.png";
+import g_mot2 from "../assets/Mother_silhouette_collection/CC8B7E4D-4CD4-42AE-9DBD-A9F8A146CF82.png";
+import g_mot3 from "../assets/Mother_silhouette_collection/DSC_6991.jpg";
+import g_mot4 from "../assets/Mother_silhouette_collection/M.jpg";
+
 const IMAGE_MAP = {
   // GLASS
-  "Vintage Coca Cola": [vc1/*, vc2, vc3, vc4*/],
-  "Black Swan Wine Glass": [bs1/*, bs2, bs3, bs4, bs5*/],
-  "Bow-tiful Wine Glass": [bb1/*, bb2, bb3*/],
-  "Bow-tiful Champagne Glass": [bt1/*, bt2, bt3*/],
-  "Bubble Tumbler": [bu1/*, bu2, bu3, bu4*/],
-  "Black Heart Champagne Glass": [dw1/*, dw2, dw3*/],
-  "Rose Champagne Glass": [ro1/*, ro2, ro3*/],
-  "Spectrum Martini Glass": [sp1/*, sp2, sp3, sp4*/],
-  "Trippy Beer Glass": [tr1/*, tr2, tr3*/],
+  "Vintage Coca Cola": [vc1, vc2, vc3, vc4],
+  "Black Swan Wine Glass": [bs1, bs2, bs3, bs4, bs5],
+  "Bow-tiful Wine Glass": [bb1, bb2, bb3],
+  "Bow-tiful Champagne Glass": [bt1, bt2, bt3],
+  "Bubble Tumbler": [bu1, bu2, bu3, bu4],
+  "Black Heart Champagne Glass": [dw1, dw2, dw3],
+  "Rose Champagne Glass": [ro1, ro2, ro3],
+  "Spectrum Martini Glass": [sp1, sp2, sp3, sp4],
+  "Trippy Beer Glass": [tr1, tr2, tr3],
 
   // RUGS
-  "Beer Mug": [rug_beer1/*, rug_beer2*/],
-  "Car Rug": [rug_car1/*, rug_car2, rug_car3*/],
-  "Drip of Love": [rug_heart1/*, rug_heart2*/],
-  "Vortex Illusion": [rug_illusion1/*, rug_illusion2, rug_illusion3*/],
-  "Rare Beauty Soft Pinch": [rug_lipstick1/*, rug_lipstick2, rug_lipstick3*/],
-  "Nike Shoe Box": [rug_nike1/*, rug_nike2*/],
-  "Sakht Launda": [rug_sakht1/*, rug_sakht2, rug_sakht3, rug_sakht4*/],
+  "Beer Mug": [rug_beer1, rug_beer2],
+  "Car Rug": [rug_car1, rug_car2, rug_car3],
+  "Drip of Love": [rug_heart1, rug_heart2],
+  "Vortex Illusion": [rug_illusion1, rug_illusion2, rug_illusion3],
+  "Rare Beauty Soft Pinch": [rug_lipstick1, rug_lipstick2, rug_lipstick3],
+  "Nike Shoe Box": [rug_nike1, rug_nike2],
+  "Sakht Launda": [rug_sakht1, rug_sakht2, rug_sakht3, rug_sakht4],
   "Vaseline": [rug_vase1],
   "Shoes Rug": [rug_shoe1],
-  "Sneaker-Foot (Red)": [rug_shoe_r1/*, rug_shoe_r2*/],
+  "Sneaker-Foot (Red)": [rug_shoe_r1, rug_shoe_r2],
   "Sneaker-Foot (Orange)": [rug_shoe_o1],
-  "Sneaker-Foot (Purple)": [rug_shoe_p1/*, rug_shoe_p2*/],
+  "Sneaker-Foot (Purple)": [rug_shoe_p1, rug_shoe_p2],
 
   // VASES
-  "Flat Bottle Vase": [v_bot1/*, v_bot2*/],
-  "Flat Floral Vase": [v_flo1/*, v_flo2*/],
-  "Fridge Magnet Set": [v_mag1/*, v_mag2, v_mag3, v_mag4, v_mag5, v_mag6, v_mag7*/]
+  "Flat Bottle Vase": [v_bot1, v_bot2],
+  "Flat Floral Vase": [v_flo1, v_flo2],
+  "Fridge Magnet Set": [v_mag1, v_mag2, v_mag3, v_mag4, v_mag5, v_mag6, v_mag7],
+
+  // PLATES
+  "Portion Plate": [p_por1, p_por2, p_por3],
+  "Toast & Tasty Plate": [p_toast1, p_toast2, p_toast3],
+  "Kiwi Plate": [p_kiwi1, p_kiwi2, p_kiwi3],
+  "Watermelon Plate": [p_wat1],
+  "Vitamin-C Plate": [p_vit1, p_vit2, p_vit3],
+  "Sapphire Bloom": [p_sap1, p_sap2],
+  "Rosava": [p_ros1, p_ros2],
+
+  // SPOONS
+  "Sweet Heart Spoon": [s_sweet1, s_sweet2, s_sweet3],
+  "Floral Buzz Spoon": [s_buzz1, s_buzz2, s_buzz3, s_flo1, s_flo2],
+  "Heart of Gold Spoon": [s_heart1, s_heart2, s_heart3, s_heart4],
+  "Feathers Touch": [s_fea1, s_fea2, s_fea3],
+
+  // HANGERS
+  "Safety Pin Hook": [h_safe1, h_safe2, h_safe3],
+  "Phases of Moon": [h_moon1, h_moon2, h_moon3],
+  "Hang-O-Scale": [h_hang1, h_hang2, h_hang3],
+
+  // DECOR (SIGN BOARDS)
+  "Sign Board": [d_pri1, d_pri2, d_pri3, d_pri4],
+  "Caution May Contain Drama": [d_cau1, d_cau2, d_cau3, d_cau4],
+  "Dramatic Exit": [d_dra1, d_dra2],
+  "Hot Mess Zone": [d_hot1, d_hot2, d_hot3],
+  "Main Character Energy": [d_main1, d_main2, d_main3],
+  "No Bad Vibes": [d_bad1, d_bad2, d_bad3],
+  "Peace Out This Way": [d_pea1, d_pea2, d_pea3],
+  "Stop Snack Time": [d_sna1, d_sna2, d_sna3, d_sna4],
+
+  // GIFTING
+  "Mother Silhouette": [g_mot1, g_mot2, g_mot3, g_mot4]
 };
 
 const PALETTE = ["#B8736A", "#6E8FA8", "#6FA880", "#A89A6E", "#8E6EA8", "#A86E8E", "#C09A42", "#5E92A8"];

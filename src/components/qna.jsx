@@ -10,10 +10,14 @@ export default function QNA() {
     <section id="faq" className="faq-section">
       <div className="faq-inner">
         <div className="section-header center">
-          <div className="label">FAQs</div>
-          <h2 className="section-title center">
-            Got <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>questions?</span>
-          </h2>
+          <div>
+            <div className="section-header center">
+              <div className="label center">FAQs</div>
+              <h2 className="section-title center">
+                Got <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>questions?</span>
+              </h2>
+            </div>
+          </div>
         </div>
 
         {faqs.map((f, i) => (
