@@ -1,47 +1,100 @@
+import { useState, useEffect, useRef } from "react";
 import config from "../configs/config.js";
 
-const { designTokens: T, contact, orderSteps } = config;
+const { designTokens: T, orderSteps } = config;
 
+/* Material Symbols icon name per step (same order as orderSteps) */
+const STEP_ICONS = ["photo_camera", "chat", "payments", "local_shipping"];
+
+/* ─── Reusable StepCard component ──────────────────────────────── */
+function StepCard({ step, icon, index, visible }) {
+  return (
+    <div
+      className={`step-card${visible ? " step-card--visible" : ""}`}
+      style={{ transitionDelay: `${index * 130}ms` }}
+    >
+      <div className="step-icon-wrap">
+        <span className="material-symbols-outlined step-icon">{icon}</span>
+      </div>
+
+      <div className="step-body">
+        <span className="step-label">Step {index + 1}</span>
+        <h3 className="step-card-title">{step.title}</h3>
+        <p className="step-card-desc">{step.desc}</p>
+      </div>
+    </div>
+  );
+}
+
+/* ─── Arrow connector between cards ────────────────────────────── */
+function Connector() {
+  return (
+    <div className="step-connector" aria-hidden="true">
+      <span className="material-symbols-outlined step-connector-icon">
+        arrow_forward
+      </span>
+    </div>
+  );
+}
+
+/* ─── Section wrapper ───────────────────────────────────────────── */
 export default function HowToOrder() {
+  const containerRef = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.15 }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section className="order-section">
       <div className="section-inner">
+        {/* ── Header ── */}
         <div className="section-header center">
           <div className="label">Simple Process</div>
           <h2 className="section-title center">
-            How to <span style={{ color: T.colors.red, fontStyle: "italic", fontFamily: T.fonts.PF }}>order?</span>
+            How to{" "}
+            <span
+              style={{
+                color: T.colors.red,
+                fontStyle: "italic",
+                fontFamily: T.fonts.PF,
+              }}
+            >
+              order?
+            </span>
           </h2>
         </div>
 
-        <div className="steps-list">
-          <div className="simple-step">
-            <span className="step-num">Step 01</span>
-            <div className="step-content">
-              <span className="step-title">Screenshot:</span>
-              <span className="step-desc">Explore our curated categories and capture a screenshot of the unique pieces that catch your eye and spark joy for your home.</span>
-            </div>
-          </div>
-          <div className="simple-step">
-            <span className="step-num">Step 02</span>
-            <div className="step-content">
-              <span className="step-title">WhatsApp Us:</span>
-              <span className="step-desc">Simply share your saved screenshots with us on WhatsApp at +91 82976 70555. We're here to help you finalize your selection and check availability.</span>
-            </div>
-          </div>
-          <div className="simple-step">
-            <span className="step-num">Step 03</span>
-            <div className="step-content">
-              <span className="step-title">Pay Easily:</span>
-              <span className="step-desc">Securely complete your purchase using GPay, Paytm, PhonePe, or a direct bank transfer. Once payment is confirmed, your order is locked in and ready.</span>
-            </div>
-          </div>
-          <div className="simple-step">
-            <span className="step-num">Step 04</span>
-            <div className="step-content">
-              <span className="step-title">We Dispatch:</span>
-              <span className="step-desc">Relax as our team carefully packs your order. We dispatch within 3–7 business days and will share tracking details so you can follow its journey.</span>
-            </div>
-          </div>
+        {/* ── Card flow ── */}
+        <div className="steps-flow" ref={containerRef}>
+          {orderSteps.map((step, i) => (
+            <>
+              <div key={step.n} className="steps-flow-item">
+                <StepCard
+                  step={step}
+                  icon={STEP_ICONS[i]}
+                  index={i}
+                  visible={visible}
+                />
+              </div>
+              {i < orderSteps.length - 1 && <Connector key={`conn-${i}`} />}
+            </>
+          ))}
         </div>
       </div>
     </section>

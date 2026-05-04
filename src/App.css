@@ -1395,54 +1395,189 @@ body {
   line-height: 1.8;
 }
 
-/* Order Section */
+/* ── Order Section — card flow ───────────────────────────────── */
 .order-section {
   max-width: 1280px;
   margin: 0 auto;
   padding: 80px 5% 0;
 }
 
-.steps-list {
+/* Row that holds all cards + connectors */
+.steps-flow {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0;
+  margin-top: 52px;
+  flex-wrap: nowrap;
+}
+
+/* Each card slot — equal flex share */
+.steps-flow-item {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+}
+
+/* ── StepCard ──────────────────────────────────────────────── */
+.step-card {
+  flex: 1;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 28px 24px 24px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
-  margin-top: 48px;
+  text-align: center;
+  gap: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  transition: transform 0.32s cubic-bezier(0.23,1,0.32,1),
+              box-shadow 0.32s ease,
+              opacity 0.5s ease;
+  /* scroll-reveal start state */
+  opacity: 0;
+  transform: translateY(22px);
 }
 
-.simple-step {
-  display: flex;
-  align-items: baseline;
-  gap: 32px;
-  max-width: 800px;
-  width: 100%;
+.step-card--visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.step-num {
-  font-family: var(--CK);
-  color: var(--red);
-  font-size: 32px;
-  flex-shrink: 0;
-  width: 140px;
-  text-align: right;
+.step-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 48px rgba(0,0,0,0.10);
 }
 
-.step-content {
-  flex: 1;
+/* Step label — "Step 1", "Step 2" … */
+.step-label {
   font-family: var(--IN);
-  font-size: 22px;
-  color: var(--black);
-  line-height: 1.5;
-}
-
-.step-title {
+  font-size: 12px;
   font-weight: 700;
-  margin-right: 8px;
+  color: var(--red);
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.step-desc {
-  color: var(--muted);
+/* Icon circle */
+.step-icon-wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff3f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+
+.step-icon {
+  font-size: 28px;
+  color: var(--red);
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 28;
+}
+
+/* Text body */
+.step-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.step-card-title {
+  font-family: var(--IN);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+.step-card-desc {
+  font-family: var(--IN);
+  font-size: 13px;
   font-weight: 400;
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Connector arrow ──────────────────────────────────────── */
+.step-connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  align-self: center;
+  width: 40px;
+  color: var(--red);
+  opacity: 0.45;
+}
+
+.step-connector-icon {
+  font-size: 22px;
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+/* ── Mobile: vertical stack, horizontal card row ──────────── */
+@media (max-width: 767px) {
+  /* Container stacks vertically */
+  .steps-flow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .steps-flow-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* Card: horizontal row — [badge] [icon] [text] */
+  .step-card {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 14px;
+    padding: 18px 16px;
+    border-radius: 12px;
+  }
+
+
+
+  /* Icon circle — stays centred, no extra top margin */
+  .step-icon-wrap {
+    margin-top: 0;
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+  }
+
+  .step-icon {
+    font-size: 24px;
+  }
+
+  /* Text fills remaining space */
+  .step-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* Connector: narrow, centred, arrow rotated downward */
+  .step-connector {
+    width: auto;
+    height: 28px;
+    align-self: center;
+  }
+
+  .step-connector-icon {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
 }
 
 .order-cta {
