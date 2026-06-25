@@ -36,7 +36,7 @@
         {
           "name": "Shoes Rug",
           "size": "5′×2′7″",
-          "price": 5499,
+          "price": 6499,
           "tag": "New Drop"
         },
         {
@@ -68,17 +68,17 @@
         {
           "name": "Sneaker-Foot (Red)",
           "size": "5′×2′7″",
-          "price": 5499
+          "price": 6499
         },
         {
           "name": "Sneaker-Foot (Orange)",
           "size": "5′×2′7″",
-          "price": 5499
+          "price": 6499
         },
         {
           "name": "Sneaker-Foot (Purple)",
           "size": "5′×2′7″",
-          "price": 5499
+          "price": 6499
         },
         {
           "name": "Sakht Launda",
@@ -159,8 +159,8 @@
           "name": "Vintage Coca Cola",
           "size": "300 ml",
           "detail": "Set of 6",
-          "price": 799,
-          "priceMax": 799,
+          "price": 999,
+          "priceMax": 999,
           "priceSets": "Set of 6",
           "tag": "Iconic"
         },
