@@ -123,6 +123,13 @@
           "tag": "New Drop"
         },
         {
+          "name": "Corn Plate",
+          "size": "4”×7”",
+          "detail": "1 pc",
+          "price": 399,
+          "material": "Premium Ceramic"
+        },
+        {
           "name": "Star Plate",
           "size": "8″",
           "detail": "1 plate",
@@ -286,6 +293,13 @@
           "detail": "Single Piece",
           "price": 450,
           "tag": "Giftable"
+        },
+        {
+          "name": "Waffle Cup",
+          "size": "4”×3”",
+          "detail": "1 pc",
+          "price": 399,
+          "material": "Premium Ceramic"
         }
       ]
     },

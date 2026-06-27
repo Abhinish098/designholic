@@ -29,6 +29,9 @@ import sp4 from "../assets/Glass_collection/Spectrum Martini Glass/DSC_6841.jpg"
 import tr1 from "../assets/Glass_collection/Trippy Beer Glass/01.jpg";
 import tr2 from "../assets/Glass_collection/Trippy Beer Glass/02.jpg";
 import tr3 from "../assets/Glass_collection/Trippy Beer Glass/03.jpg";
+import wc1 from "../assets/Glass_collection/Waffle cup/8352C387-677D-4B51-B62F-930365BD51FF.png";
+import wc2 from "../assets/Glass_collection/Waffle cup/C0E0E30F-266B-457B-A171-E44D5E167C0B.png";
+import wc3 from "../assets/Glass_collection/Waffle cup/FDD9EFD6-4C22-4D6A-BF23-2278FCCE9EF9 (1).png";
 import vc1 from "../assets/Glass_collection/Vintage Coca Cola Glass/BW.jpg";
 import vc2 from "../assets/Glass_collection/Vintage Coca Cola Glass/DSC_6898.jpg";
 import vc3 from "../assets/Glass_collection/Vintage Coca Cola Glass/DSC_6901.jpg";
@@ -86,13 +89,19 @@ import p_ros1 from "../assets/Plates_collection/Rosava/BBD08B2C-EB0E-47EA-95B9-4
 import p_ros2 from "../assets/Plates_collection/Rosava/DSC_6987.jpg";
 import p_sap1 from "../assets/Plates_collection/Sapphire Bloom/ABBA4C23-C98F-4CDF-BEC0-6210DF7CE764 (1).png";
 import p_sap2 from "../assets/Plates_collection/Sapphire Bloom/DSC_6990.jpg";
+import p_corn1 from "../assets/Plates_collection/Corn plate/2662B29B-E4CF-46E9-97A0-7A0B58484D2A (1).png";
+import p_corn2 from "../assets/Plates_collection/Corn plate/EDCB8716-83EC-412B-A9AE-FD31883FA541 (1).png";
 import p_toast1 from "../assets/Plates_collection/Toast and Tasty Plate/DSC_7023.jpg";
 import p_toast2 from "../assets/Plates_collection/Toast and Tasty Plate/DSC_7026.jpg";
 import p_toast3 from "../assets/Plates_collection/Toast and Tasty Plate/DSC_7112.jpg";
+import p_toast4 from "../assets/Plates_collection/Toast and Tasty Plate/2961805D-5C90-42BC-9235-A444CE91D5BB.png";
+import p_toast5 from "../assets/Plates_collection/Toast and Tasty Plate/A398B923-A9BC-4475-8ADC-81683ADE5FC7.png";
 import p_vit1 from "../assets/Plates_collection/Vitamin-C plate/58918BBC-33D6-4B57-BC29-EA3930E7DC9D.png";
 import p_vit2 from "../assets/Plates_collection/Vitamin-C plate/DSC_7010 copy.jpg";
 import p_vit3 from "../assets/Plates_collection/Vitamin-C plate/DSC_7122.jpg";
 import p_wat1 from "../assets/Plates_collection/Water melon/01.png";
+import p_star1 from "../assets/Plates_collection/Star Plate/22435601-9CF8-4912-9C54-FF3696B0676E.png";
+import p_star2 from "../assets/Plates_collection/Star Plate/985C37D6-4070-4127-8BE8-8989B0EB304A.png";
 
 // ── SPOONS ────────────────────────────────────────────────
 import s_buzz1 from "../assets/Spoons_collection/Buzz Spoon/314cfd42-4867-47b7-93ea-dfe3d2af7f76.png";
@@ -219,6 +228,7 @@ const IMAGE_MAP = {
   "Rose Champagne Glass": [ro1, ro2, ro3],
   "Spectrum Martini Glass": [sp1, sp2, sp3, sp4],
   "Trippy Beer Glass": [tr1, tr2, tr3],
+  "Waffle Cup": [wc1, wc2, wc3],
 
   // RUGS
   "Beer Mug": [rug_beer1, rug_beer2],
@@ -241,9 +251,12 @@ const IMAGE_MAP = {
 
   // PLATES
   "Portion Plate": [p_por1, p_por2, p_por3],
-  "Toast & Tasty Plate": [p_toast1, p_toast2, p_toast3],
+  "Toast & Tasty Plate": [p_toast1, p_toast2, p_toast3, p_toast4, p_toast5],
   "Kiwi Plate": [p_kiwi1, p_kiwi2, p_kiwi3],
   "Watermelon Plate": [p_wat1],
+  "Corn Plate": [p_corn1, p_corn2],
+  "Toast Plate": [p_toast1, p_toast2, p_toast3],
+  "Star Plate": [p_star1, p_star2],
   "Vitamin-C Plate": [p_vit1, p_vit2, p_vit3],
   "Sapphire Bloom": [p_sap1, p_sap2],
   "Rosava": [p_ros1, p_ros2],
