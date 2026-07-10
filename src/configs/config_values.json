@@ -664,7 +664,7 @@
     },
     {
       "q": "Do you ship across India?",
-      "a": "Yes, we ship all over India 🇮🇳. Free delivery on all orders above ₹1,500."
+      "a": "Yes, we ship all over India 🇮🇳. Free delivery on all orders above ₹1,800."
     },
     {
       "q": "What payment methods do you accept?",
@@ -676,14 +676,14 @@
     },
     {
       "q": "Are there delivery charges?",
-      "a": "No delivery charges on orders above ₹1,500. The price you see is the price you pay 🚚."
+      "a": "No delivery charges on orders above ₹1,800. The price you see is the price you pay 🚚."
     },
     {
       "q": "Are products returnable?",
       "a": "Products are not returnable. In case of any damage during delivery, please record a clear unboxing video and share it with us immediately so we can review and assist you."
     }
   ],
-  "ticker": "Pan India Delivery ✦ Pinterest Finds ✦ Free Shipping Above ₹1500 ✦ WhatsApp Orders Open ✦ Cute Home Upgrades ✦ Limited Stock ✦ ",
+  "ticker": "Pan India Delivery ✦ Pinterest Finds ✦ Free Shipping Above ₹1800 ✦ WhatsApp Orders Open ✦ Cute Home Upgrades ✦ Limited Stock ✦ ",
   "contact": {
     "whatsapp": "+91 82976 70555",
     "whatsappLink": "VITE_WHATSAPP_LINK",
@@ -702,7 +702,7 @@
       "label": "Dispatch"
     },
     {
-      "value": "₹1500+",
+      "value": "₹1800+",
       "label": "Free Ship"
     },
     {
@@ -719,7 +719,7 @@
     {
       "icon": "🇮🇳",
       "title": "Pan India Delivery",
-      "desc": "Free shipping on orders above ₹1,500. We ship everywhere across India, fast."
+      "desc": "Free shipping on orders above ₹1,800. We ship everywhere across India, fast."
     },
     {
       "icon": "🎨",
