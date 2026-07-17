@@ -6,9 +6,9 @@ import bs2 from "../assets/Glass_collection/Black Swan Glass/DSC_6884.jpg";
 import bs3 from "../assets/Glass_collection/Black Swan Glass/DSC_6885.jpg";
 import bs4 from "../assets/Glass_collection/Black Swan Glass/DSC_7145.jpg";
 import bs5 from "../assets/Glass_collection/Black Swan Glass/F2E8DBC2-163E-4BDF-91F9-DF1E0ACFCC98.JPEG";
-import bb1 from "../assets/Glass_collection/Bow-Blush Glass/01.jpg";
-import bb2 from "../assets/Glass_collection/Bow-Blush Glass/02.jpg";
-import bb3 from "../assets/Glass_collection/Bow-Blush Glass/03.jpg";
+// import bb1 from "../assets/Glass_collection/Bow-Blush Glass/01.jpg";
+// import bb2 from "../assets/Glass_collection/Bow-Blush Glass/02.jpg";
+// import bb3 from "../assets/Glass_collection/Bow-Blush Glass/03.jpg";
 import bt1 from "../assets/Glass_collection/Bow-tiful Champange Glass/01.jpg";
 import bt2 from "../assets/Glass_collection/Bow-tiful Champange Glass/02.png";
 import bt3 from "../assets/Glass_collection/Bow-tiful Champange Glass/03.png";
@@ -221,7 +221,7 @@ const IMAGE_MAP = {
   // GLASS
   "Vintage Coca Cola": [vc1, vc2, vc3, vc4],
   "Black Swan Wine Glass": [bs1, bs2, bs3, bs4, bs5],
-  "Bow-Blush Glass": [bb1, bb2, bb3],
+  // "Bow-Blush Glass": [bb1, bb2, bb3],
   "Bow-tiful Champagne Glass": [bt1, bt2, bt3],
   "Bubble Tumbler": [bu1, bu2, bu3, bu4],
   "Black Heart Champagne Glass": [dw1, dw2, dw3],

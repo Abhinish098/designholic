@@ -166,63 +166,34 @@
           "name": "Vintage Coca Cola",
           "size": "300 ml",
           "detail": "Set of 6",
-          "price": 999,
-          "priceMax": 999,
+          "price": 1299,
+          "priceMax": 1299,
           "priceSets": "Set of 6",
           "tag": "Iconic"
         },
         {
           "name": "Black Swan Wine Glass",
           "size": "350 ml",
-          "detail": "Set of 4 / 6",
-          "price": 1799,
-          "priceMax": 2499,
-          "variants": [
-            {
-              "label": "Set of 4",
-              "price": 1799
-            },
-            {
-              "label": "Set of 6",
-              "price": 2499
-            }
-          ],
+          "detail": "Set of 6",
+          "price": 2999,
+          "priceMax": 2999,
+          "priceSets": "Set of 6",
           "tag": "Bestseller"
-        },
-        {
-          "name": "Bow-Blush Glass",
-          "size": "250 ml",
-          "detail": "Single Piece",
-          "price": 375,
-          "tag": "Giftable"
         },
         {
           "name": "Bow-tiful Champagne Glass",
           "size": "200 ml",
-          "detail": "Set of 2 / 4 / 6",
+          "detail": "Set of 2",
           "price": 999,
-          "priceMax": 2499,
-          "variants": [
-            {
-              "label": "Set of 2",
-              "price": 999
-            },
-            {
-              "label": "Set of 4",
-              "price": 1899
-            },
-            {
-              "label": "Set of 6",
-              "price": 2499
-            }
-          ],
+          "priceMax": 999,
+          "priceSets": "Set of 2",
           "tag": "Elegant"
         },
         {
           "name": "Bubble Tumbler",
           "size": "300 ml",
           "detail": "Single Piece",
-          "price": 375,
+          "price": 399,
           "tag": "Modern"
         },
         {
@@ -246,45 +217,19 @@
         {
           "name": "Rose Champagne Glass",
           "size": "200 ml",
-          "detail": "Set of 2 / 4 / 6",
+          "detail": "Set of 2",
           "price": 999,
-          "priceMax": 2499,
-          "variants": [
-            {
-              "label": "Set of 2",
-              "price": 999
-            },
-            {
-              "label": "Set of 4",
-              "price": 1899
-            },
-            {
-              "label": "Set of 6",
-              "price": 2499
-            }
-          ],
+          "priceMax": 999,
+          "priceSets": "Set of 2",
           "tag": "Popular"
         },
         {
           "name": "Spectrum Martini Glass",
           "size": "250 ml",
-          "detail": "Set of 1 / 4 / 6",
-          "price": 499,
-          "priceMax": 2899,
-          "variants": [
-            {
-              "label": "Single Piece",
-              "price": 499
-            },
-            {
-              "label": "Set of 4",
-              "price": 1999
-            },
-            {
-              "label": "Set of 6",
-              "price": 2899
-            }
-          ],
+          "detail": "Set of 2",
+          "price": 999,
+          "priceMax": 999,
+          "priceSets": "Set of 2",
           "tag": "Party Pick"
         },
         {
