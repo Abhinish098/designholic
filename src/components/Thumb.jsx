@@ -37,6 +37,26 @@ import vc2 from "../assets/Glass_collection/Vintage Coca Cola Glass/DSC_6898.jpg
 import vc3 from "../assets/Glass_collection/Vintage Coca Cola Glass/DSC_6901.jpg";
 import vc4 from "../assets/Glass_collection/Vintage Coca Cola Glass/DSC_7159.jpg";
 
+import dc1 from "../assets/Glass_collection/Diet Coke Glass/IMG_3725.png";
+import dc2 from "../assets/Glass_collection/Diet Coke Glass/IMG_3726.png";
+import dc3 from "../assets/Glass_collection/Diet Coke Glass/IMG_3744.png";
+
+import rc1 from "../assets/Glass_collection/Rotating Coasting Light Glass/IMG_3741.png";
+import rc2 from "../assets/Glass_collection/Rotating Coasting Light Glass/IMG_3742.png";
+import rc3 from "../assets/Glass_collection/Rotating Coasting Light Glass/IMG_3743.png";
+
+import kit_w1 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3750.png";
+import kit_w2 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3751.png";
+import kit_w3 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3752.png";
+import kit_w4 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3753.png";
+import kit_w5 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3761.png";
+
+import kit_m1 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3815.png";
+import kit_m2 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3816.png";
+import kit_m3 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3817.png";
+import kit_m4 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3818.png";
+import kit_m5 from "../assets/Glass_collection/DIY Glass Sticker Kit/IMG_3761.png";
+
 // ── RUGS ───────────────────────────────────────────────────
 import rug_beer1 from "../assets/Rags_collection/Beer Rug/93F6FD45-D183-4352-B34C-0B38BDC1F0C1.PNG";
 import rug_beer2 from "../assets/Rags_collection/Beer Rug/DSC_6538.JPG";
@@ -229,6 +249,10 @@ const IMAGE_MAP = {
   "Spectrum Martini Glass": [sp1, sp2, sp3, sp4],
   "Trippy Beer Glass": [tr1, tr2, tr3],
   "Waffle Cup": [wc1, wc2, wc3],
+  "Diet Coke Glass": [dc1, dc2, dc3],
+  "Rotating Coasting Light Glass": [rc1, rc2, rc3],
+  "DIY Glass Sticker Kit - Women Edition": [kit_w1, kit_w2, kit_w3, kit_w4, kit_w5],
+  "DIY Glass Sticker Kit - Men Edition": [kit_m1, kit_m2, kit_m3, kit_m4, kit_m5],
 
   // RUGS
   "Beer Mug": [rug_beer1, rug_beer2],
@@ -255,7 +279,7 @@ const IMAGE_MAP = {
   "Kiwi Plate": [p_kiwi1, p_kiwi2, p_kiwi3],
   "Watermelon Plate": [p_wat1],
   "Corn Plate": [p_corn1, p_corn2],
-  "Toast Plate": [p_toast1, p_toast2, p_toast3],
+  "Toast Plate": [p_toast4, p_toast5],
   "Star Plate": [p_star1, p_star2],
   "Vitamin-C Plate": [p_vit1, p_vit2, p_vit3],
   "Sapphire Bloom": [p_sap1, p_sap2],

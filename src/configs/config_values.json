@@ -109,6 +109,12 @@
           "tag": "Viral Pick"
         },
         {
+          "name": "Toast Plate",
+          "size": "Set of 2",
+          "detail": "Premium ceramic",
+          "price": 899
+        },
+        {
           "name": "Kiwi Plate",
           "size": "8″",
           "detail": "1 plate",
@@ -245,6 +251,30 @@
           "detail": "1 pc",
           "price": 399,
           "material": "Premium Ceramic"
+        },
+        {
+          "name": "Diet Coke Glass",
+          "size": "500 ml",
+          "detail": "Single - UV DTF",
+          "price": 699
+        },
+        {
+          "name": "Rotating Coasting Light Glass",
+          "size": "280 ml",
+          "detail": "Single - battery operated",
+          "price": 559
+        },
+        {
+          "name": "DIY Glass Sticker Kit - Women Edition",
+          "size": "300 ml",
+          "detail": "2 glass · 15 UV-DTF stickers",
+          "price": 1199
+        },
+        {
+          "name": "DIY Glass Sticker Kit - Men Edition",
+          "size": "300 ml",
+          "detail": "2 glass · 15 UV-DTF stickers",
+          "price": 1199
         }
       ]
     },
@@ -576,6 +606,20 @@
           "detail": "Finger joint Wood",
           "price": 1499,
           "tag": "Gift Idea"
+        },
+        {
+          "name": "DIY Glass Sticker Kit - Women Edition",
+          "size": "300 ml",
+          "detail": "2 glass · 15 UV-DTF stickers",
+          "price": 1199,
+          "tag": "New Drop"
+        },
+        {
+          "name": "DIY Glass Sticker Kit - Men Edition",
+          "size": "300 ml",
+          "detail": "2 glass · 15 UV-DTF stickers",
+          "price": 1199,
+          "tag": "New Drop"
         }
       ]
     }
