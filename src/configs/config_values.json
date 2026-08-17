@@ -190,8 +190,8 @@
           "name": "Bow-tiful Champagne Glass",
           "size": "200 ml",
           "detail": "Set of 2",
-          "price": 999,
-          "priceMax": 999,
+          "price": 1299,
+          "priceMax": 1299,
           "priceSets": "Set of 2",
           "tag": "Elegant"
         },
@@ -262,7 +262,7 @@
           "name": "Rotating Coasting Light Glass",
           "size": "280 ml",
           "detail": "Single - battery operated",
-          "price": 559
+          "price": 599
         },
         {
           "name": "DIY Glass Sticker Kit - Women Edition",
